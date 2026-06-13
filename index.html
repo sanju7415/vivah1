@@ -1,1 +1,5128 @@
+<!DOCTYPE html>
+<html lang="hi">
 
+<head>
+
+<meta charset="UTF-8">
+
+<meta
+name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>
+💍 Royal Wedding Invitation
+</title>
+
+
+
+<link rel="preconnect"
+href="https://fonts.googleapis.com">
+
+<link rel="preconnect"
+href="https://fonts.gstatic.com"
+crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Great+Vibes&family=Noto+Sans+Devanagari:wght@400;700&display=swap"
+rel="stylesheet">
+
+<link rel="stylesheet"
+href="style.css">
+<!-- FontAwesome Icons और Google Fonts (इसे अपने HTML के <head> में ज़रूर डालें) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+
+<style>
+/* =====================================
+   ROYAL WEDDING CSS
+===================================== */
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+
+font-family:
+"Noto Sans Devanagari",
+sans-serif;
+
+background:
+linear-gradient(
+135deg,
+#1a0000,
+#3b0000,
+#120000);
+
+color:white;
+
+overflow-x:hidden;
+
+min-height:100vh;
+
+}
+
+/* =====================================
+OPENING SCREEN
+===================================== */
+
+.opening-screen{
+
+position:fixed;
+
+top:0;
+left:0;
+
+width:100%;
+height:100vh;
+
+display:flex;
+
+justify-content:center;
+align-items:center;
+
+background:
+radial-gradient(
+circle,
+#4a000b,
+#150000);
+
+z-index:9999;
+
+}
+
+.opening-card{
+
+width:90%;
+max-width:500px;
+
+padding:40px;
+
+text-align:center;
+
+border-radius:25px;
+
+background:
+rgba(255,255,255,.05);
+
+backdrop-filter:blur(15px);
+
+border:
+2px solid
+rgba(255,215,0,.4);
+
+box-shadow:
+0 0 40px
+rgba(255,215,0,.15);
+
+}
+
+.om{
+
+font-size:70px;
+margin-bottom:20px;
+
+animation:
+floatOm 3s infinite ease-in-out;
+
+}
+
+@keyframes floatOm{
+
+50%{
+transform:
+translateY(-10px);
+}
+
+}
+
+.opening-card h1{
+
+font-size:2.2rem;
+
+color:gold;
+
+margin:20px 0;
+
+font-family:
+"Cinzel",
+serif;
+
+}
+
+.opening-card h2{
+
+font-size:3rem;
+
+margin:20px 0;
+
+font-family:
+"Great Vibes",
+cursive;
+
+color:white;
+
+}
+
+.opening-card p{
+
+opacity:.9;
+
+margin-top:10px;
+
+}
+
+#openInvitation{
+
+margin-top:25px;
+
+padding:
+14px 30px;
+
+border:none;
+
+border-radius:50px;
+
+background:
+linear-gradient(
+45deg,
+gold,
+#fff4b0);
+
+color:#4a000b;
+
+font-weight:bold;
+
+cursor:pointer;
+
+font-size:1rem;
+
+transition:.3s;
+
+}
+
+#openInvitation:hover{
+
+transform:
+translateY(-3px)
+scale(1.05);
+
+}
+
+/* =====================================
+MAIN CONTENT
+===================================== */
+
+.main-content{
+
+padding:40px 20px;
+
+}
+
+/* =====================================
+HERO SECTION
+===================================== */
+
+.hero-section{
+
+text-align:center;
+
+padding:100px 20px;
+
+}
+
+.hero-section h3{
+
+color:gold;
+
+letter-spacing:3px;
+
+margin-bottom:20px;
+
+}
+
+.hero-section h1{
+
+font-size:4rem;
+
+font-family:
+"Great Vibes",
+cursive;
+
+margin-bottom:20px;
+
+}
+
+.hero-section p{
+
+font-size:1.2rem;
+
+opacity:.9;
+
+}
+
+/* =====================================
+COUPLE SECTION
+===================================== */
+
+.couple-section{
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+gap:30px;
+
+flex-wrap:wrap;
+
+padding:60px 20px;
+
+}
+
+.couple-card{
+
+width:280px;
+
+padding:25px;
+
+text-align:center;
+
+background:
+rgba(255,255,255,.06);
+
+border-radius:25px;
+
+border:
+1px solid
+rgba(255,255,255,.15);
+
+backdrop-filter:
+blur(12px);
+
+box-shadow:
+0 15px 30px
+rgba(0,0,0,.4);
+
+transition:.4s;
+
+}
+
+.couple-card:hover{
+
+transform:
+translateY(-10px);
+
+}
+
+.couple-card img{
+
+width:180px;
+height:180px;
+
+object-fit:cover;
+
+border-radius:50%;
+
+border:
+5px solid gold;
+
+margin-bottom:20px;
+
+}
+
+.couple-card h2{
+
+color:gold;
+
+margin-bottom:10px;
+
+}
+
+.love-heart{
+
+font-size:60px;
+
+animation:
+heartbeat 1.2s infinite;
+
+}
+
+@keyframes heartbeat{
+
+50%{
+transform:
+scale(1.2);
+}
+
+}
+
+/* =====================================
+COUNTDOWN
+===================================== */
+
+.countdown-section{
+
+padding:80px 20px;
+
+text-align:center;
+
+}
+
+.countdown-section h2{
+
+font-size:2rem;
+
+color:gold;
+
+margin-bottom:40px;
+
+}
+
+.countdown-grid{
+
+display:grid;
+
+grid-template-columns:
+repeat(auto-fit,minmax(150px,1fr));
+
+gap:20px;
+
+max-width:800px;
+
+margin:auto;
+
+}
+
+.countdown-grid div{
+
+padding:25px;
+
+background:
+rgba(255,255,255,.05);
+
+border-radius:20px;
+
+border:
+1px solid
+rgba(255,255,255,.15);
+
+}
+
+.countdown-grid span{
+
+font-size:3rem;
+
+font-weight:bold;
+
+color:gold;
+
+display:block;
+
+margin-bottom:10px;
+
+}
+
+/* =====================================
+LOVE STORY
+===================================== */
+
+.love-story{
+
+padding:80px 20px;
+
+text-align:center;
+
+}
+
+.love-story h2{
+
+margin-bottom:40px;
+
+color:gold;
+
+}
+
+.story-card{
+
+max-width:700px;
+
+margin:20px auto;
+
+padding:20px;
+
+border-radius:20px;
+
+background:
+rgba(255,255,255,.05);
+
+border:
+1px solid
+rgba(255,255,255,.12);
+
+}
+
+/* =====================================
+RITUAL SECTION
+===================================== */
+
+.ritual-section{
+
+padding:80px 20px;
+
+}
+
+.ritual-section h2{
+
+text-align:center;
+
+margin-bottom:50px;
+
+color:gold;
+
+}
+
+.ritual-grid{
+
+display:grid;
+
+grid-template-columns:
+repeat(auto-fit,minmax(250px,1fr));
+
+gap:25px;
+
+max-width:1200px;
+
+margin:auto;
+
+}
+
+.ritual-card{
+
+padding:25px;
+
+border-radius:20px;
+
+background:
+rgba(255,255,255,.06);
+
+border:
+1px solid
+rgba(255,255,255,.15);
+
+cursor:pointer;
+
+transition:.4s;
+
+text-align:center;
+
+font-size:1.1rem;
+
+}
+
+.ritual-card:hover{
+
+transform:
+translateY(-10px);
+
+border-color:
+gold;
+
+box-shadow:
+0 10px 30px
+rgba(255,215,0,.2);
+
+}
+
+/* =====================================
+MOBILE
+===================================== */
+
+@media(max-width:768px){
+
+.hero-section h1{
+font-size:2.8rem;
+}
+
+.opening-card h2{
+font-size:2.3rem;
+}
+
+.countdown-grid span{
+font-size:2rem;
+}
+
+.love-heart{
+font-size:40px;
+}
+
+}
+
+#haldiPage{
+
+min-height:100vh;
+
+padding:40px 20px;
+
+background:
+linear-gradient(
+135deg,
+#ffcc33,
+#ffb300,
+#ff9800);
+
+color:white;
+
+text-align:center;
+
+}
+
+.haldi-couple{
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+gap:25px;
+
+flex-wrap:wrap;
+
+margin-bottom:40px;
+
+}
+
+.haldi-person{
+
+width:180px;
+
+padding:20px;
+
+border-radius:25px;
+
+background:
+rgba(255,255,255,.15);
+
+backdrop-filter:blur(10px);
+
+}
+
+.haldi-avatar{
+
+font-size:70px;
+
+margin-bottom:15px;
+
+}
+
+.haldi-heart{
+
+font-size:50px;
+
+animation:
+heartbeat 1.2s infinite;
+
+}
+
+
+ /* प्रीमियम हल्दी कंटेनर */
+  .haldi-container {
+    font-family: 'Poppins', sans-serif;
+    background: #fffef0;
+    background-image: 
+      radial-gradient(circle at 100% 150%, #fef9e7 24%, #fdf2c5 28%, #fdf2c5 28%, #fffef0 52%),
+      radial-gradient(circle at 0% 0%, #fdf2c5 15%, #fffef0 16%);
+    padding: 30px 20px;
+    border-radius: 24px;
+    box-shadow: 0 15px 35px rgba(230, 126, 34, 0.1);
+    max-width: 450px;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px double #f1c40f;
+    position: relative;
+    overflow: hidden;
+    animation: fadeIn 0.6s ease-out;
+  }
+
+  /* बैक बटन */
+  .back-btn {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(5px);
+    border: 1px solid #e67e22;
+    color: #e67e22;
+    padding: 6px 14px;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 13px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    z-index: 10;
+  }
+  .back-btn:hover {
+    background: #e67e22;
+    color: white;
+    transform: translateX(-3px);
+  }
+
+  /* सबसे ऊपर दूल्हा-दुल्हन का प्रीमियम अवतार */
+  .top-couple-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 25px; /* बैक बटन के नीचे स्पेस देने के लिए */
+    margin-bottom: 15px;
+  }
+  .avatar-circle {
+    background: white;
+    border: 2px dashed #f1c40f;
+    padding: 12px;
+    border-radius: 50%;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .avatar-circle:hover {
+    transform: scale(1.1) rotate(5deg);
+  }
+  .avatar-circle i {
+    font-size: 35px;
+    background: linear-gradient(45deg, #d35400, #f1c40f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .heart-beat {
+    font-size: 20px;
+    color: #e74c3c;
+    animation: heartbeat 1.2s infinite;
+  }
+
+  /* गेंदे के फूल की लड़ी */
+  .marigold-garland {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 15px;
+  }
+  .flower {
+    color: #f39c12;
+    font-size: 12px;
+    animation: swing 3s ease-in-out infinite alternate;
+  }
+  .flower:nth-child(even) { color: #d35400; animation-delay: 0.5s; }
+
+  /* रॉयल हेडिंग्स */
+  .haldi-title {
+    font-family: 'Great Vibes', cursive;
+    color: #d35400;
+    font-size: 45px;
+    margin: 0;
+    font-weight: bold;
+  }
+  .haldi-subtitle {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #7f8c8d;
+    margin-bottom: 25px;
+  }
+
+  /* कंटेंट कार्ड */
+  .content-card {
+    background: white;
+    padding: 25px 20px;
+    border-radius: 16px;
+    border: 1px solid #f9ebae;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.02);
+  }
+  .info-row {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  .info-row:last-child { margin-bottom: 0; }
+  .info-icon {
+    background: #fff9e6;
+    color: #e67e22;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    flex-shrink: 0;
+  }
+  .info-text p { margin: 0; color: #333; font-size: 14px; }
+  .info-text span { color: #888; font-size: 12px; }
+
+  /* Animations */
+  @keyframes fadeIn { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+  @keyframes heartbeat { 0% { transform: scale(1); } 20% { transform: scale(1.15); } 40% { transform: scale(1); } 60% { transform: scale(1.15); } 80% { transform: scale(1); } 100% { transform: scale(1); } }
+  @keyframes swing { from { transform: rotate(-5deg); } to { transform: rotate(5deg); } }
+  
+   /* दिल के धड़कने का एनिमेशन */
+  @keyframes cuteHeartBeat {
+    0% { transform: scale(1); }
+    20% { transform: scale(1.2); }
+    40% { transform: scale(1); }
+    60% { transform: scale(1.2); }
+    80% { transform: scale(1); }
+    100% { transform: scale(1); }
+  }
+
+  /* इमोजी के ऊपर-नीचे तैरने (Floating) का एनिमेशन */
+  @keyframes emojiFloat {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-6px); }
+    100% { transform: translateY(0px); }
+  }
+
+  /* दूल्हे के लिए फ्लोट इफेक्ट */
+  .cute-groom {
+    animation: emojiFloat 3s ease-in-out infinite;
+  }
+
+  /* दुल्हन के लिए हल्का सा अलग टाइमिंग वाला फ्लोट इफेक्ट */
+  .cute-bride {
+    animation: emojiFloat 3s ease-in-out infinite;
+    animation-delay: 0.5s; /* ताकि दोनों एक साथ ऊपर-नीचे न हों */
+  }
+
+  /* माउस ले जाने पर (Hover) कमाल का इफेक्ट */
+  .avatar-emoji-circle:hover {
+    transform: scale(1.15) rotate(8deg) !important;
+    border-style: solid !important;
+    border-color: #e67e22 !important;
+    background: #fffdf0 !important;
+    cursor: pointer;
+  }
+  
+  /* --- Ultra-Premium Haldi Title Styling --- */
+.haldi-title {
+  font-family: 'Great Vibes', cursive;
+  font-size: 52px; /* मोबाइल के लिए एकदम परफेक्ट रॉयल साइज */
+  font-weight: bold;
+  margin: 10px 0 5px 0;
+  text-align: center;
+  
+  /* 1. हल्दी स्पेशल मल्टी-शेड ग्रेडिएंट (Yellow, Gold, Orange, Saffron) */
+  background: linear-gradient(
+    45deg, 
+    #800020 0%, /* गहरा मैरून */
+    #d4af37 30%, /* रॉयल गोल्ड */
+    #f1c40f 50%, /* चमकीला पीला */
+    #d4af37 70%, /* रॉयल गोल्ड */
+    #800020 100%
+);
+
+  background-size: 200% auto; /* एनिमेशन को स्मूथली मूव कराने के लिए */
+  
+  /* 2. टेक्स्ट के अंदर ग्रेडिएंट भरने के लिए मैजिक प्रॉपर्टीज */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  /* 3. प्रीमियम सॉफ्ट ड्रॉप शैडो (3D लुक के लिए) */
+  filter: drop-shadow(0px 3px 5px rgba(211, 84, 0, 0.25));
+  
+  /* 4. डायनामिक एनिमेशन का जुड़ना (4 सेकंड में एक बार स्मूथली घूमेगा) */
+  animation: shinyGoldGradient 4s linear infinite;
+}
+
+/* --- टेक्स्ट के अंदर ग्रेडिएंट को मूव कराने का एनिमेशन --- */
+@keyframes shinyGoldGradient {
+  0% {
+    background-position: 0% center;
+  }
+  50% {
+    background-position: 100% center; /* ग्रेडिएंट को राइट साइड खींचेगा */
+  }
+  100% {
+    background-position: 0% center; /* वापस अपनी जगह लाएगा */
+  }
+}
+
+/* --- मोबाइल स्क्रीन के लिए रिस्पॉन्सिव (ताकि टेक्स्ट टूटे नहीं) --- */
+@media (max-width: 480px) {
+  .haldi-title {
+    font-size: 44px; /* छोटे फोंस पर भी यह एक लाइन में सुंदर दिखेगा */
+  }
+}
+
+
+/* --- प्रीमियम मेहंदी कंटेनर (रॉयल ग्रीन थीम) --- */
+  .mehandi-container {
+    font-family: 'Poppins', sans-serif;
+    background: #f4fbf7; /* हल्का मिंट बैकग्राउंड */
+    background-image: 
+      radial-gradient(circle at 100% 150%, #e8f5e9 24%, #c8e6c9 28%, #c8e6c9 28%, #f4fbf7 52%),
+      radial-gradient(circle at 0% 0%, #c8e6c9 15%, #f4fbf7 16%);
+    padding: 30px 20px;
+    border-radius: 24px;
+    box-shadow: 0 15px 35px rgba(46, 125, 50, 0.1);
+    max-width: 450px;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px double #2e7d32; /* गहरा हरा बॉर्डर */
+    position: relative;
+    overflow: hidden;
+    animation: mehandiFadeIn 0.6s ease-out;
+  }
+
+  /* बैक बटन */
+  .mehandi-back-btn {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(5px);
+    border: 1px solid #2e7d32;
+    color: #2e7d32;
+    padding: 6px 14px;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 13px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    z-index: 10;
+  }
+  .mehandi-back-btn:hover {
+    background: #2e7d32;
+    color: white;
+    transform: translateX(-3px);
+  }
+
+  /* --- क्यूट दूल्हा-दुल्हन इमोजी सेटअप --- */
+  .mehandi-couple-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+  }
+  .mehandi-avatar-circle {
+    background: white;
+    border: 2px dashed #2e7d32;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  .mehandi-avatar-circle:hover {
+    transform: scale(1.15) rotate(-8deg) !important;
+    border-style: solid !important;
+    border-color: #c8e6c9 !important;
+    background: #e8f5e9 !important;
+    cursor: pointer;
+  }
+
+  /* --- एनिमेटेड डायनामिक हेडिंग (डार्क ग्रीन से गोल्ड ग्रेडिएंट) --- */
+  .mehandi-title {
+    font-family: 'Great Vibes', cursive;
+    font-size: 52px;
+    font-weight: bold;
+    margin: 15px 0 5px 0;
+    background: linear-gradient(
+      45deg, 
+      #1b5e20 0%, /* गहरा हरा */
+      #a4c639 30%, /* मेहंदी का पत्ता रंग */
+      #d4af37 50%, /* रॉयल गोल्ड */
+      #a4c639 70%, 
+      #1b5e20 100%
+    );
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0px 3px 5px rgba(27, 94, 32, 0.2));
+    animation: shinyMehandiGradient 4s linear infinite;
+  }
+  .mehandi-subtitle {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #558b2f;
+    margin-bottom: 25px;
+    font-weight: 600;
+  }
+
+  /* --- कंटेंट कार्ड --- */
+  .mehandi-card {
+    background: white;
+    padding: 25px 20px;
+    border-radius: 16px;
+    border: 1px solid #c8e6c9;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.02);
+  }
+  .mehandi-info-row {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  .mehandi-info-row:last-child { margin-bottom: 0; }
+  .mehandi-info-icon {
+    background: #e8f5e9;
+    color: #2e7d32;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    flex-shrink: 0;
+  }
+  .mehandi-info-text p { margin: 0; color: #333; font-size: 14px; }
+  .mehandi-info-text span { color: #777; font-size: 12px; }
+
+  /* --- ऑल एनिमेसन्स (Animations) --- */
+  @keyframes mehandiHeartBeat {
+    0% { transform: scale(1); }
+    20% { transform: scale(1.2); }
+    40% { transform: scale(1); }
+    60% { transform: scale(1.2); }
+    80% { transform: scale(1); }
+    100% { transform: scale(1); }
+  }
+  @keyframes mehandiFloat {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-6px); }
+    100% { transform: translateY(0px); }
+  }
+  @keyframes shinyMehandiGradient {
+    0% { background-position: 0% center; }
+    50% { background-position: 100% center; }
+    100% { background-position: 0% center; }
+  }
+  @keyframes mehandiFadeIn { 
+    from { opacity: 0; transform: translateY(20px); } 
+    to { opacity: 1; transform: translateY(0); } 
+  }
+
+  .float-groom { animation: mehandiFloat 3s ease-in-out infinite; }
+  .float-bride { animation: mehandiFloat 3s ease-in-out infinite; animation-delay: 0.5s; }
+
+  /* मोबाइल स्क्रीन के लिए */
+  @media (max-width: 480px) {
+    .mehandi-title { font-size: 44px; }
+  }
+
+
+/* --- प्रीमियम संगीत कंटेनर (रॉयल नाइट थीम) --- */
+  .sangeet-container {
+    font-family: 'Poppins', sans-serif;
+    background: #faf5ff; /* हल्का पर्पल-व्हाइट बैकग्राउंड */
+    background-image: 
+      radial-gradient(circle at 100% 150%, #f3e5f5 24%, #e1bee7 28%, #e1bee7 28%, #faf5ff 52%),
+      radial-gradient(circle at 0% 0%, #e1bee7 15%, #faf5ff 16%);
+    padding: 30px 20px;
+    border-radius: 24px;
+    box-shadow: 0 15px 35px rgba(106, 27, 154, 0.1);
+    max-width: 450px;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px double #6a1b9a; /* रॉयल पर्पल बॉर्डर */
+    position: relative;
+    overflow: hidden;
+    animation: sangeetFadeIn 0.6s ease-out;
+  }
+
+  /* बैक बटन */
+  .sangeet-back-btn {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(5px);
+    border: 1px solid #6a1b9a;
+    color: #6a1b9a;
+    padding: 6px 14px;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 13px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    z-index: 10;
+  }
+  .sangeet-back-btn:hover {
+    background: #6a1b9a;
+    color: white;
+    transform: translateX(-3px);
+  }
+
+  /* --- क्यूट दूल्हा-दुल्हन डांसिंग इमोजी सेटअप --- */
+  .sangeet-couple-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+  }
+  .sangeet-avatar-circle {
+    background: white;
+    border: 2px dashed #6a1b9a;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  .sangeet-avatar-circle:hover {
+    transform: scale(1.15) rotate(12deg) !important;
+    border-style: solid !important;
+    border-color: #e1bee7 !important;
+    background: #f3e5f5 !important;
+    cursor: pointer;
+  }
+
+  /* --- एनिमेटेड डायनामिक हेडिंग (पर्पल से डिस्को पिंक/गोल्ड) --- */
+  .sangeet-title {
+    font-family: 'Great Vibes', cursive;
+    font-size: 52px;
+    font-weight: bold;
+    margin: 15px 0 5px 0;
+    background: linear-gradient(
+      45deg, 
+      #4a148c 0%, /* डार्क पर्पल */
+      #ff007f 35%, /* डिस्को मैजेंटा */
+      #d4af37 65%, /* शाइनिंग गोल्ड */
+      #4a148c 100%
+    );
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0px 3px 5px rgba(74, 20, 140, 0.2));
+    animation: shinySangeetGradient 4s linear infinite;
+  }
+  .sangeet-subtitle {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #8e24aa;
+    margin-bottom: 25px;
+    font-weight: 600;
+  }
+
+  /* --- कंटेंट कार्ड --- */
+  .sangeet-card {
+    background: white;
+    padding: 25px 20px;
+    border-radius: 16px;
+    border: 1px solid #e1bee7;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.02);
+  }
+  .sangeet-info-row {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  .sangeet-info-row:last-child { margin-bottom: 0; }
+  .sangeet-info-icon {
+    background: #f3e5f5;
+    color: #6a1b9a;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    flex-shrink: 0;
+  }
+  .sangeet-info-text p { margin: 0; color: #333; font-size: 14px; }
+  .sangeet-info-text span { color: #777; font-size: 12px; }
+
+  /* --- ऑल एनिमेसन्स (Animations) --- */
+  @keyframes sangeetHeartBeat {
+    0% { transform: scale(1); }
+    20% { transform: scale(1.2); }
+    40% { transform: scale(1); }
+    60% { transform: scale(1.2); }
+    80% { transform: scale(1); }
+    100% { transform: scale(1); }
+  }
+  @keyframes sangeetDance {
+    0% { transform: translateY(0px) rotate(0deg); }
+    25% { transform: translateY(-5px) rotate(-3deg); }
+    50% { transform: translateY(0px) rotate(3deg); }
+    75% { transform: translateY(-5px) rotate(-3deg); }
+    100% { transform: translateY(0px) rotate(0deg); }
+  }
+  @keyframes shinySangeetGradient {
+    0% { background-position: 0% center; }
+    50% { background-position: 100% center; }
+    100% { background-position: 0% center; }
+  }
+  @keyframes sangeetFadeIn { 
+    from { opacity: 0; transform: translateY(20px); } 
+    to { opacity: 1; transform: translateY(0); } 
+  }
+
+  /* डांसिंग इफेक्ट इमोजी के लिए */
+  .dance-groom { animation: sangeetDance 2s ease-in-out infinite; }
+  .dance-bride { animation: sangeetDance 2s ease-in-out infinite; animation-delay: 0.3s; }
+
+  /* मोबाइल स्क्रीन के लिए */
+  @media (max-width: 480px) {
+    .sangeet-title { font-size: 44px; }
+  }
+
+
+ /* --- प्रीमियम माता पूजन कंटेनर (भक्तिमय सिंदूरी-गोल्ड थीम) --- */
+  .pujan-container {
+    font-family: 'Poppins', sans-serif;
+    background: #fff5eb; 
+    background-image: 
+      radial-gradient(circle at 50% 30%, rgba(255, 165, 0, 0.12) 0%, rgba(255, 245, 235, 0) 70%),
+      radial-gradient(circle at 100% 150%, #ffe0b2 24%, #ffcc80 28%, #ffcc80 28%, #fff5eb 52%);
+    
+    padding: 30px 35px; /* दीयों के लिए साइड में थोड़ी जगह छोड़ी है */
+    border-radius: 24px;
+    box-shadow: 0 15px 35px rgba(211, 84, 0, 0.15);
+    max-width: 450px;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px double #d35400; 
+    position: relative;
+    overflow: hidden;
+    animation: pujanFadeIn 0.6s ease-out;
+  }
+
+  /* --- स्क्रीन के दोनों किनारों पर दीयों की लड़ी (Diya Side Borders) --- */
+  .diya-border-left, .diya-border-right {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; /* ऊपर से नीचे तक बराबर दूरी पर दीये रहेंगे */
+    align-items: center;
+    z-index: 5;
+    padding: 15px 0;
+  }
+  
+  .diya-border-left { left: 5px; }
+  .diya-border-right { right: 5px; }
+
+  /* जलते हुए दीये का स्टाइल और टिमटिमाता इफेक्ट */
+  .border-diya {
+    font-size: 16px;
+    filter: drop-shadow(0 2px 3px rgba(230, 126, 34, 0.4));
+    animation: diyaFlicker 1.5s infinite alternate;
+  }
+  
+  /* दीयों में थोड़ा सा रैंडम इफेक्ट देने के लिए अल्टरनेट दीयों का टाइमिंग अलग किया */
+  .diya-border-left span:nth-child(even),
+  .diya-border-right span:nth-child(odd) {
+    animation-delay: 0.4s;
+  }
+
+  /* बैक बटन */
+  .pujan-back-btn {
+    position: absolute;
+    top: 20px;
+    left: 35px; /* दीयों से थोड़ा आगे खिसकाया */
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(5px);
+    border: 1px solid #d35400;
+    color: #d35400;
+    padding: 6px 14px;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 13px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    z-index: 10;
+  }
+  .pujan-back-btn:hover {
+    background: #d35400;
+    color: white;
+    transform: translateX(-3px);
+  }
+
+  /* माँ दुर्गा का बैकग्राउंड आर्ट */
+  .durga-bg-vector {
+    position: absolute;
+    top: 55px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 220px;
+    height: 220px;
+    opacity: 0.08; 
+    pointer-events: none;
+    z-index: 1;
+  }
+
+  /* दूल्हा-दुल्हन बॉक्स */
+  .pujan-couple-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    position: relative;
+    z-index: 2;
+  }
+  .pujan-avatar-circle {
+    background: white;
+    border: 2px dashed #d35400;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+  }
+
+  /* हेडिंग और टेक्स्ट */
+  .pujan-title {
+    font-family: 'Great Vibes', cursive;
+    font-size: 52px;
+    font-weight: bold;
+    margin: 15px 0 5px 0;
+    position: relative;
+    z-index: 2;
+    background: linear-gradient(45deg, #b71c1c 0%, #e65c00 35%, #d4af37 65%, #b71c1c 100%);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shinyPujanGradient 4s linear infinite;
+  }
+  .pujan-subtitle {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #e65c00;
+    margin-bottom: 25px;
+    font-weight: 600;
+    position: relative;
+    z-index: 2;
+  }
+
+  /* कंटेंट कार्ड */
+  .pujan-card {
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(2px);
+    padding: 25px 20px;
+    border-radius: 16px;
+    border: 1px solid #ffcc80;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.02);
+    position: relative;
+    z-index: 2;
+  }
+  .pujan-info-row {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  .pujan-info-row:last-child { margin-bottom: 0; }
+  .pujan-info-icon {
+    background: #fff3e0;
+    color: #d35400;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+  }
+  .pujan-info-text p { margin: 0; color: #333; font-size: 14px; }
+  .pujan-info-text span { color: #777; font-size: 12px; }
+
+  /* एनिमेशन्स */
+  @keyframes pujanHeartBeat {
+    0%, 100% { transform: scale(1); }
+    20%, 60% { transform: scale(1.15); }
+    40%, 80% { transform: scale(1); }
+  }
+  @keyframes pujanFloat {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-5px); }
+  }
+  @keyframes diyaFlicker {
+    0% { transform: scale(0.95); opacity: 0.7; filter: drop-shadow(0 0 2px #e67e22); }
+    100% { transform: scale(1.08); opacity: 1; filter: drop-shadow(0 0 6px #f1c40f); }
+  }
+  @keyframes shinyPujanGradient {
+    0%, 100% { background-position: 0% center; }
+    50% { background-position: 100% center; }
+  }
+  @keyframes pujanFadeIn { 
+    from { opacity: 0; transform: translateY(20px); } 
+    to { opacity: 1; transform: translateY(0); } 
+  }
+
+  .float-pujan-groom { animation: pujanFloat 3.5s ease-in-out infinite; }
+  .float-pujan-bride { animation: pujanFloat 3.5s ease-in-out infinite; animation-delay: 0.6s; }
+
+  @media (max-width: 480px) {
+    .pujan-title { font-size: 42px; }
+    .pujan-container { padding: 30px 28px; } /* मोबाइल पर स्पेस एडजस्टमेंट */
+    .border-diya { font-size: 14px; }
+  }
+  
+ /* --- प्रीमियम माता पूजन कंटेनर (भक्तिमय सिंदूरी-गोल्ड थीम) --- */
+  .pujan-container {
+    font-family: 'Poppins', sans-serif;
+    background: #fff5eb; 
+    background-image: 
+      radial-gradient(circle at 50% 30%, rgba(255, 165, 0, 0.12) 0%, rgba(255, 245, 235, 0) 70%),
+      radial-gradient(circle at 100% 150%, #ffe0b2 24%, #ffcc80 28%, #ffcc80 28%, #fff5eb 52%);
+    
+    padding: 30px 35px; /* दीयों के लिए साइड में थोड़ी जगह छोड़ी है */
+    border-radius: 24px;
+    box-shadow: 0 15px 35px rgba(211, 84, 0, 0.15);
+    max-width: 450px;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px double #d35400; 
+    position: relative;
+    overflow: hidden;
+    animation: pujanFadeIn 0.6s ease-out;
+  }
+
+  /* --- स्क्रीन के दोनों किनारों पर दीयों की लड़ी (Diya Side Borders) --- */
+  .diya-border-left, .diya-border-right {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; /* ऊपर से नीचे तक बराबर दूरी पर दीये रहेंगे */
+    align-items: center;
+    z-index: 5;
+    padding: 15px 0;
+  }
+  
+  .diya-border-left { left: 5px; }
+  .diya-border-right { right: 5px; }
+
+  /* जलते हुए दीये का स्टाइल और टिमटिमाता इफेक्ट */
+  .border-diya {
+    font-size: 16px;
+    filter: drop-shadow(0 2px 3px rgba(230, 126, 34, 0.4));
+    animation: diyaFlicker 1.5s infinite alternate;
+  }
+  
+  /* दीयों में थोड़ा सा रैंडम इफेक्ट देने के लिए अल्टरनेट दीयों का टाइमिंग अलग किया */
+  .diya-border-left span:nth-child(even),
+  .diya-border-right span:nth-child(odd) {
+    animation-delay: 0.4s;
+  }
+
+  /* बैक बटन */
+  .pujan-back-btn {
+    position: absolute;
+    top: 20px;
+    left: 35px; /* दीयों से थोड़ा आगे खिसकाया */
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(5px);
+    border: 1px solid #d35400;
+    color: #d35400;
+    padding: 6px 14px;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 13px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    z-index: 10;
+  }
+  .pujan-back-btn:hover {
+    background: #d35400;
+    color: white;
+    transform: translateX(-3px);
+  }
+
+  /* माँ दुर्गा का बैकग्राउंड आर्ट */
+  .durga-bg-vector {
+    position: absolute;
+    top: 55px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 220px;
+    height: 220px;
+    opacity: 0.08; 
+    pointer-events: none;
+    z-index: 1;
+  }
+
+  /* दूल्हा-दुल्हन बॉक्स */
+  .pujan-couple-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    position: relative;
+    z-index: 2;
+  }
+  .pujan-avatar-circle {
+    background: white;
+    border: 2px dashed #d35400;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+  }
+
+  /* हेडिंग और टेक्स्ट */
+  .pujan-title {
+    font-family: 'Great Vibes', cursive;
+    font-size: 52px;
+    font-weight: bold;
+    margin: 15px 0 5px 0;
+    position: relative;
+    z-index: 2;
+    background: linear-gradient(45deg, #b71c1c 0%, #e65c00 35%, #d4af37 65%, #b71c1c 100%);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shinyPujanGradient 4s linear infinite;
+  }
+  .pujan-subtitle {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #e65c00;
+    margin-bottom: 25px;
+    font-weight: 600;
+    position: relative;
+    z-index: 2;
+  }
+
+  /* कंटेंट कार्ड */
+  .pujan-card {
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(2px);
+    padding: 25px 20px;
+    border-radius: 16px;
+    border: 1px solid #ffcc80;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.02);
+    position: relative;
+    z-index: 2;
+  }
+  .pujan-info-row {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  .pujan-info-row:last-child { margin-bottom: 0; }
+  .pujan-info-icon {
+    background: #fff3e0;
+    color: #d35400;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+  }
+  .pujan-info-text p { margin: 0; color: #333; font-size: 14px; }
+  .pujan-info-text span { color: #777; font-size: 12px; }
+
+  /* एनिमेशन्स */
+  @keyframes pujanHeartBeat {
+    0%, 100% { transform: scale(1); }
+    20%, 60% { transform: scale(1.15); }
+    40%, 80% { transform: scale(1); }
+  }
+  @keyframes pujanFloat {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-5px); }
+  }
+  @keyframes diyaFlicker {
+    0% { transform: scale(0.95); opacity: 0.7; filter: drop-shadow(0 0 2px #e67e22); }
+    100% { transform: scale(1.08); opacity: 1; filter: drop-shadow(0 0 6px #f1c40f); }
+  }
+  @keyframes shinyPujanGradient {
+    0%, 100% { background-position: 0% center; }
+    50% { background-position: 100% center; }
+  }
+  @keyframes pujanFadeIn { 
+    from { opacity: 0; transform: translateY(20px); } 
+    to { opacity: 1; transform: translateY(0); } 
+  }
+
+  .float-pujan-groom { animation: pujanFloat 3.5s ease-in-out infinite; }
+  .float-pujan-bride { animation: pujanFloat 3.5s ease-in-out infinite; animation-delay: 0.6s; }
+
+  @media (max-width: 480px) {
+    .pujan-title { font-size: 42px; }
+    .pujan-container { padding: 30px 28px; } /* मोबाइल पर स्पेस एडजस्टमेंट */
+    .border-diya { font-size: 14px; }
+  }
+  
+  /* --- प्रीमियम जयमाला कंटेनर (रॉयल पैलेस थीम) --- */
+  .jaymala-container {
+    font-family: 'Poppins', sans-serif;
+    background: #fff0f5; /* हल्का लैवेंडर-पिंक बेस */
+    background-image: 
+      radial-gradient(circle at 50% 30%, rgba(212, 175, 55, 0.15) 0%, rgba(255, 240, 245, 0) 70%),
+      linear-gradient(135deg, #fff0f5 0%, #ffe4e1 100%);
+    
+    padding: 30px 20px;
+    border-radius: 24px;
+    box-shadow: 0 15px 35px rgba(136, 14, 79, 0.15);
+    max-width: 450px;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px double #88144f; /* मैरून/बर्गंडी बॉर्डर */
+    position: relative;
+    overflow: hidden;
+    animation: jaymalaFadeIn 0.6s ease-out;
+  }
+
+  /* --- वरमाला करते हुए कपल की बैकग्राउंड इमेज (SVG Vector) --- */
+  .varmala-bg-couple {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 280px;
+    height: 280px;
+    opacity: 0.09; /* बैकग्राउंड में हल्का और एलीट लुक देने के लिए */
+    pointer-events: none;
+    z-index: 1;
+  }
+
+  /* --- लाइव स्नो फॉल इफेक्ट (Snow Fall Particles) --- */
+  .snowflake {
+    position: absolute;
+    top: -10px;
+    color: #fff;
+    font-size: 1em;
+    font-family: sans-serif;
+    text-shadow: 0 0 3px rgba(0,0,0,0.1);
+    pointer-events: none;
+    z-index: 4;
+    animation: fall linear infinite;
+  }
+  
+  /* अलग-अलग स्नोफ्लेक्स की पोजीशन और स्पीड */
+  .snowflake:nth-child(1) { left: 10%; animation-duration: 6s; animation-delay: 0s; font-size: 14px; opacity: 0.8; }
+  .snowflake:nth-child(2) { left: 25%; animation-duration: 8s; animation-delay: 2s; font-size: 18px; opacity: 0.5; }
+  .snowflake:nth-child(3) { left: 40%; animation-duration: 7s; animation-delay: 1s; font-size: 12px; opacity: 0.9; }
+  .snowflake:nth-child(4) { left: 55%; animation-duration: 9s; animation-delay: 3s; font-size: 16px; opacity: 0.6; }
+  .snowflake:nth-child(5) { left: 70%; animation-duration: 6s; animation-delay: 1.5s; font-size: 20px; opacity: 0.4; }
+  .snowflake:nth-child(6) { left: 85%; animation-duration: 8s; animation-delay: 0.5s; font-size: 15px; opacity: 0.7; }
+  .snowflake:nth-child(7) { left: 95%; animation-duration: 7s; animation-delay: 4s; font-size: 13px; opacity: 0.8; }
+
+  /* बैक बटन */
+  .jaymala-back-btn {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(5px);
+    border: 1px solid #88144f;
+    color: #88144f;
+    padding: 6px 14px;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 13px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    z-index: 10;
+  }
+  .jaymala-back-btn:hover {
+    background: #88144f;
+    color: white;
+    transform: translateX(-3px);
+  }
+
+  /* --- क्यूट दूल्हा-दुल्हन अवतार बॉक्स --- */
+  .jaymala-couple-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    position: relative;
+    z-index: 2;
+  }
+  .jaymala-avatar-circle {
+    background: white;
+    border: 2px dashed #88144f;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+  }
+
+  /* --- चमकती हुई हेडिंग (मैरून से ब्राइट गोल्ड) --- */
+  .jaymala-title {
+    font-family: 'Great Vibes', cursive;
+    font-size: 52px;
+    font-weight: bold;
+    margin: 15px 0 5px 0;
+    position: relative;
+    z-index: 2;
+    background: linear-gradient(45deg, #4a001f 0%, #88144f 35%, #d4af37 65%, #4a001f 100%);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0px 3px 4px rgba(136, 14, 79, 0.2));
+    animation: shinyJaymalaGradient 4s linear infinite;
+  }
+  .jaymala-subtitle {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #88144f;
+    margin-bottom: 25px;
+    font-weight: 600;
+    position: relative;
+    z-index: 2;
+  }
+
+  /* --- कंटेंट कार्ड --- */
+  .jaymala-card {
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(3px);
+    padding: 25px 20px;
+    border-radius: 16px;
+    border: 1px solid #ffb6c1;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.02);
+    position: relative;
+    z-index: 2;
+  }
+  .jaymala-info-row {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  .jaymala-info-row:last-child { margin-bottom: 0; }
+  .jaymala-info-icon {
+    background: #f8bbd0;
+    color: #88144f;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+  }
+  .jaymala-info-text p { margin: 0; color: #333; font-size: 14px; }
+  .jaymala-info-text span { color: #777; font-size: 12px; }
+
+  /* --- एनीमेशन की कोडिंग --- */
+  @keyframes fall {
+    0% { top: -10px; transform: translateX(0) rotate(0deg); }
+    100% { top: 100%; transform: translateX(30px) rotate(360deg); }
+  }
+  @keyframes jaymalaHeartBeat {
+    0%, 100% { transform: scale(1); }
+    20%, 60% { transform: scale(1.15); }
+    40%, 80% { transform: scale(1); }
+  }
+  @keyframes shinyJaymalaGradient {
+    0%, 100% { background-position: 0% center; }
+    50% { background-position: 100% center; }
+  }
+  @keyframes jaymalaFadeIn { 
+    from { opacity: 0; transform: translateY(20px); } 
+    to { opacity: 1; transform: translateY(0); } 
+  }
+
+  /* मोबाइल स्क्रीन सपोर्ट */
+  @media (max-width: 480px) {
+    .jaymala-title { font-size: 44px; }
+  }
+
+
+
+/* --- ग्रैंड सात फेरे कंटेनर (रॉयल मंडप थीम) --- */
+  .phere-container {
+    font-family: 'Poppins', sans-serif;
+    /* गहरा सिंदूरी लाल और सोने जैसा चमकदार बैकग्राउंड */
+    background: linear-gradient(135deg, #4a0002 0%, #7a0006 50%, #9e000c 100%);
+    padding: 30px 20px;
+    border-radius: 24px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+    max-width: 450px;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid #d4af37; /* मैटेलिक गोल्ड बॉर्डर */
+    position: relative;
+    overflow: hidden;
+    animation: phereFadeIn 0.6s ease-out;
+  }
+
+  /* --- सात फेरे लेते हुए कपल की बैकग्राउंड इमेज (SVG Line Art) --- */
+  .phere-bg-couple {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 320px;
+    height: 320px;
+    opacity: 0.15; /* बैकग्राउंड में चमकता हुआ दिखेगा */
+    pointer-events: none;
+    z-index: 1;
+  }
+
+  /* --- हाई-डेंसिटी फूलों की बारिश (High-Density Flower Rain) --- */
+  .flower-petal {
+    position: absolute;
+    top: -20px;
+    font-size: 1.5em;
+    pointer-events: none;
+    z-index: 4;
+    animation: petalRain linear infinite;
+  }
+  
+  /* बहुत सारे फूल (High Density) अलग-अलग जगह और तेज़ स्पीड से गिरेंगे */
+  .petal1 { left: 5%;  animation-duration: 4s; animation-delay: 0s; }
+  .petal2 { left: 18%; animation-duration: 3.5s; animation-delay: 1.5s; font-size: 24px; }
+  .petal3 { left: 32%; animation-duration: 4.5s; animation-delay: 0.5s; }
+  .petal4 { left: 45%; animation-duration: 3s; animation-delay: 2s; font-size: 22px; }
+  .petal5 { left: 58%; animation-duration: 4s; animation-delay: 1s; }
+  .petal6 { left: 72%; animation-duration: 3.2s; animation-delay: 2.5s; font-size: 25px; }
+  .petal7 { left: 85%; animation-duration: 4.2s; animation-delay: 0.2s; }
+  .petal8 { left: 95%; animation-duration: 3.7s; animation-delay: 1.8s; }
+
+  /* बैक बटन (गोल्डन थीम) */
+  .phere-back-btn {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(5px);
+    border: 1px solid #d4af37;
+    color: #d4af37;
+    padding: 6px 14px;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 13px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    z-index: 10;
+  }
+  .phere-back-btn:hover {
+    background: #d4af37;
+    color: #4a0002;
+    transform: translateX(-3px);
+  }
+
+  /* --- दूल्हा-दुल्हन का एलीट गोल्ड बॉक्स --- */
+  .phere-couple-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    position: relative;
+    z-index: 2;
+  }
+  .phere-avatar-circle {
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px dashed #d4af37;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+  }
+
+  /* --- धधकती हुई पवित्र अग्नि हेडिंग (Gold & Orange Glow) --- */
+  .phere-title {
+    font-family: 'Great Vibes', cursive;
+    font-size: 54px;
+    font-weight: bold;
+    margin: 15px 0 5px 0;
+    position: relative;
+    z-index: 2;
+    background: linear-gradient(45deg, #f1c40f 0%, #e67e22 40%, #fff 70%, #f1c40f 100%);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0px 2px 8px #e67e22);
+    animation: shinyPhereGradient 3s linear infinite;
+  }
+  .phere-subtitle {
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #d4af37;
+    margin-bottom: 25px;
+    font-weight: 600;
+    position: relative;
+    z-index: 2;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+  }
+
+  /* --- ट्रांसपेरेंट रॉयल कंटेंट कार्ड --- */
+  .phere-card {
+    background: rgba(0, 0, 0, 0.4); /* डार्क रॉयल लुक */
+    backdrop-filter: blur(6px);
+    padding: 25px 20px;
+    border-radius: 16px;
+    border: 1px solid rgba(212, 175, 55, 0.3);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    position: relative;
+    z-index: 2;
+  }
+  .phere-info-row {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  .phere-info-row:last-child { margin-bottom: 0; }
+  .phere-info-icon {
+    background: rgba(212, 175, 55, 0.2);
+    color: #d4af37;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    border: 1px solid #d4af37;
+  }
+  .phere-info-text p { margin: 0; color: #fff; font-size: 14px; text-shadow: 0 1px 2px rgba(0,0,0,0.5); }
+  .phere-info-text span { color: #ccc; font-size: 12px; }
+
+  /* --- एनीमेशन की कोडिंग --- */
+  @keyframes petalRain {
+    0% { top: -20px; transform: translateX(0) rotate(0deg); opacity: 0; }
+    10% { opacity: 1; }
+    90% { opacity: 1; }
+    100% { top: 100%; transform: translateX(40px) rotate(720deg); opacity: 0; }
+  }
+  @keyframes phereFireGlow {
+    0%, 100% { transform: scale(1); filter: drop-shadow(0 0 5px #e67e22); }
+    50% { transform: scale(1.1); filter: drop-shadow(0 0 15px #f1c40f); }
+  }
+  @keyframes shinyPhereGradient {
+    0%, 100% { background-position: 0% center; }
+    50% { background-position: 100% center; }
+  }
+  @keyframes phereFadeIn { 
+    from { opacity: 0; transform: scale(0.95); } 
+    to { opacity: 1; transform: scale(1); } 
+  }
+
+  /* मोबाइल स्क्रीन सपोर्ट */
+  @media (max-width: 480px) {
+    .phere-title { font-size: 44px; }
+  }
+  
+  /* --- प्रीमियम वचन बॉक्स स्टाइल --- */
+.vachan-box-wrapper {
+  margin-top: 25px;
+  position: relative;
+  z-index: 3;
+  animation: vachanSlideUp 0.8s ease-out;
+}
+
+/* कार्ड के ऊपर एक ट्रेडिशनल डिवाइडर लाइन */
+.vachan-accent-line {
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #d4af37, transparent);
+  margin-bottom: 20px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* मुख्य वचन कार्ड (ग्लास और रॉयल सिल्क मिक्स लुक) */
+.vachan-card-premium {
+  background: linear-gradient(135deg, rgba(212, 175, 55, 0.1) 0%, rgba(255, 255, 255, 0.05) 100%);
+  border: 1px dashed rgba(212, 175, 55, 0.6);
+  border-radius: 12px;
+  padding: 20px 15px;
+  box-shadow: inset 0 0 15px rgba(212, 175, 55, 0.1), 0 8px 20px rgba(0,0,0,0.2);
+  position: relative;
+  /* यह एनीमेशन टेक्स्ट बॉक्स को धीरे-धीरे चमकाएगा (Glowing Effect) */
+  animation: vachanGlowPulse 3s ease-in-out infinite alternate;
+}
+
+/* वचन हेडिंग */
+.vachan-header {
+  font-size: 13px;
+  color: #d4af37;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-weight: 600;
+}
+
+.vachan-heart-icon {
+  font-size: 11px;
+  color: #ff4757;
+  animation: vachanHeartBeat 1.2s infinite;
+}
+
+/* हिंदी वचन का मुख्य टेक्स्ट */
+.vachan-text-hindi {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.6;
+  color: #ffffff;
+  margin: 0;
+  padding: 5px 10px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+  font-style: italic;
+}
+
+/* छोटा बॉटम डेकोरेशन */
+.vachan-footer-dots {
+  color: #d4af37;
+  font-size: 10px;
+  margin-top: 8px;
+  letter-spacing: 5px;
+  opacity: 0.7;
+}
+
+/* --- वचनों के लिए स्पेशल एनीमेशन --- */
+@keyframes vachanGlowPulse {
+  0% {
+    border-color: rgba(212, 175, 55, 0.4);
+    box-shadow: inset 0 0 10px rgba(212, 175, 55, 0.1), 0 5px 15px rgba(0,0,0,0.2);
+    transform: scale(0.99);
+  }
+  100% {
+    border-color: rgba(212, 175, 55, 1);
+    box-shadow: inset 0 0 20px rgba(212, 175, 55, 0.2), 0 8px 25px rgba(230, 126, 34, 0.3);
+    transform: scale(1);
+  }
+}
+
+@keyframes vachanSlideUp {
+  from { opacity: 0; transform: translateY(15px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes vachanHeartBeat {
+  0%, 100% { transform: scale(1); opacity: 0.8; }
+  50% { transform: scale(1.3); opacity: 1; }
+}
+
+/* --- प्रीमियम हल्दी वचन कंटेनर --- */
+.haldi-vachan-wrapper {
+  margin-top: 30px;
+  position: relative;
+  z-index: 3;
+  padding: 0 10px;
+  /* नीचे से ऊपर की तरफ स्मूथ एंट्री एनीमेशन */
+  animation: haldiSlideUp 0.8s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+/* ट्रेडिशनल राजस्थानी बॉर्डर / डिवाइडर लाइन */
+.haldi-accent-line {
+  height: 4px;
+  background: linear-gradient(90deg, 
+    transparent 0%, 
+    #ff8f00 20%, 
+    #d4af37 50%, 
+    #ff8f00 80%, 
+    transparent 100%
+  );
+  margin-bottom: 22px;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(255, 143, 0, 0.2);
+}
+
+/* मुख्य वचन कार्ड (सिल्क और ग्लास-मॉर्फिज्म इफ़ेक्ट) */
+.haldi-card-premium {
+  background: linear-gradient(135deg, 
+    rgba(255, 253, 240, 0.95) 0%, 
+    rgba(255, 248, 220, 0.9) 100%
+  );
+  /* डबल ट्रेडिशनल डैश बॉर्डर */
+  border: 2px dashed #ff8f00;
+  outline: 1px solid rgba(214, 175, 55, 0.4);
+  outline-offset: -6px;
+  
+  border-radius: 16px;
+  padding: 25px 20px;
+  position: relative;
+  box-shadow: 
+    0 10px 25px rgba(230, 126, 34, 0.15), 
+    inset 0 0 20px rgba(255, 215, 0, 0.2);
+    
+  /* यह एनीमेशन कार्ड को धीरे-धीरे एक जादुई चमक (Glow) देगा */
+  animation: haldiDynamicGlow 3.5s ease-in-out infinite alternate;
+  overflow: hidden;
+}
+
+/* बैकग्राउंड में चमकती हुई पानी जैसी वेव (Water Wave Effect) */
+.haldi-card-premium::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(255,215,0,0.15) 0%, transparent 60%);
+  opacity: 0.7;
+  pointer-events: none;
+  animation: haldiWaveRotate 10s linear infinite;
+}
+
+/* वचन हेडिंग स्टाइल */
+.haldi-header {
+  font-size: 13px;
+  color: #d84315; /* गहरा सिंदूरी / ऑरेंज रंग */
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 15px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.haldi-header::before,
+.haldi-header::after {
+  content: '🔸';
+  font-size: 10px;
+  animation: haldiSparkle 1.5s infinite alternate;
+}
+
+/* हिंदी वचन का मुख्य टेक्स्ट (Elegant Serif Typography) */
+.haldi-text-hindi {
+  font-family: 'Poppins', Cambria, Georgia, serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.7;
+  color: #4e342e; /* वॉर्म चॉकलेट ब्राउन जो पीले बैकग्राउंड पर सबसे प्रीमियम दिखता है */
+  margin: 0;
+  padding: 5px 8px;
+  position: relative;
+  z-index: 2;
+  text-shadow: 0 1px 1px rgba(255,255,255,0.8);
+  font-style: italic;
+}
+
+/* --- एडवांस्ड डायनामिक एनीमेशन्स --- */
+
+/* 1. कार्ड का धीरे-धीरे सांस लेता हुआ ग्लोइंग इफ़ेक्ट */
+@keyframes haldiDynamicGlow {
+  0% {
+    transform: scale(0.99);
+    border-color: #ff8f00;
+    box-shadow: 0 8px 20px rgba(230, 126, 34, 0.12), inset 0 0 15px rgba(255, 215, 0, 0.1);
+  }
+  100% {
+    transform: scale(1.01);
+    border-color: #d4af37; /* सुनहरे रंग में बदलेगा */
+    box-shadow: 0 12px 30px rgba(255, 143, 0, 0.25), inset 0 0 25px rgba(255, 143, 0, 0.2);
+  }
+}
+
+/* 2. बैकग्राउंड लाइट रोटेशन */
+@keyframes haldiWaveRotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* 3. हेडिंग के डॉट्स का चमकना */
+@keyframes haldiSparkle {
+  0% { opacity: 0.4; transform: scale(0.8); }
+  100% { opacity: 1; transform: scale(1.2); filter: drop-shadow(0 0 4px #ff8f00); }
+}
+
+/* 4. पेज लोड होते समय स्मूथ एंट्री */
+@keyframes haldiSlideUp {
+  from { opacity: 0; transform: translateY(25px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* मोबाइल स्क्रीन के लिए रिस्पॉन्सिव */
+@media (max-width: 480px) {
+  .haldi-text-hindi {
+    font-size: 14.5px;
+    line-height: 1.6;
+  }
+  .haldi-card-premium {
+    padding: 20px 15px;
+  }
+}
+
+
+/* --- प्रीमियम रोमांटिक कंटेनर --- */
+.romantic-vachan-wrapper {
+  margin-top: 30px;
+  position: relative;
+  z-index: 3;
+  padding: 0 10px;
+  animation: romanticSlideUp 0.8s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+/* रोमांटिक गोल्ड-पिंक डिवाइडर लाइन */
+.romantic-accent-line {
+  height: 3px;
+  background: linear-gradient(90deg, 
+    transparent 0%, 
+    #ff4081 20%, /* ब्राइट रोज पिंक */
+    #d4af37 50%, /* मैटेलिक गोल्ड */
+    #ff4081 80%, 
+    transparent 100%
+  );
+  margin-bottom: 22px;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+}
+
+/* मुख्य रोमांटिक कार्ड (लव थीम - रोज गोल्ड लुक) */
+.romantic-card-premium {
+  background: linear-gradient(135deg, 
+    rgba(255, 240, 245, 0.95) 0%, /* ब्लश पिंक */
+    rgba(255, 255, 255, 0.9) 100%
+  );
+  border: 2px dashed #ff4081;
+  outline: 1px solid rgba(214, 175, 55, 0.5);
+  outline-offset: -6px;
+  
+  border-radius: 16px;
+  padding: 25px 20px;
+  position: relative;
+  box-shadow: 
+    0 10px 25px rgba(255, 64, 129, 0.15), 
+    inset 0 0 20px rgba(214, 175, 55, 0.15);
+    
+  animation: romanticDynamicGlow 3s ease-in-out infinite alternate;
+  overflow: hidden;
+}
+
+/* हेडिंग स्टाइल */
+.romantic-header {
+  font-size: 13px;
+  color: #c2185b; /* गहरा गुलाब का रंग */
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 15px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+/* हिंदी मुख्य टेक्स्ट */
+.romantic-text-hindi {
+  font-family: 'Poppins', Cambria, Georgia, serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.7;
+  color: #37474f; /* रॉयल डार्क स्लेट */
+  margin: 0;
+  padding: 5px 8px;
+  position: relative;
+  z-index: 2;
+  text-shadow: 0 1px 1px rgba(255,255,255,0.9);
+  font-style: italic;
+}
+
+/* --- ऐनिमेशन --- */
+@keyframes romanticDynamicGlow {
+  0% {
+    transform: scale(0.99);
+    border-color: #ff4081;
+    box-shadow: 0 8px 20px rgba(255, 64, 129, 0.12), inset 0 0 15px rgba(214, 175, 55, 0.1);
+  }
+  100% {
+    transform: scale(1.01);
+    border-color: #d4af37;
+    box-shadow: 0 12px 30px rgba(214, 175, 55, 0.25), inset 0 0 25px rgba(255, 64, 129, 0.2);
+  }
+}
+
+@keyframes romanticSlideUp {
+  from { opacity: 0; transform: translateY(25px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* मोबाइल सपोर्ट */
+@media (max-width: 480px) {
+  .romantic-text-hindi { font-size: 14.5px; line-height: 1.6; }
+  .romantic-card-premium { padding: 20px 15px; }
+}
+
+
+/* --- प्रीमियम यूनिक वचन कंटेनर --- */
+.unique-vachan-wrapper {
+  margin-top: 30px;
+  position: relative;
+  z-index: 3;
+  padding: 0 10px;
+  animation: uniqueSlideUp 0.8s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+/* मॉडर्न थिन डिवाइडर लाइन */
+.unique-accent-line {
+  height: 2px;
+  background: linear-gradient(90deg, 
+    transparent 0%, 
+    #006064 20%, /* गहरा टील */
+    #d4af37 50%, /* सुनहरी चमक */
+    #006064 80%, 
+    transparent 100%
+  );
+  margin-bottom: 22px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* मुख्य वचन कार्ड (एलीट टील ग्लास लुक) */
+.unique-card-premium {
+  background: linear-gradient(135deg, 
+    rgba(224, 242, 241, 0.95) 0%, /* सॉफ्ट मिस्टी टील */
+    rgba(255, 255, 255, 0.9) 100%
+  );
+  border: 1px solid rgba(0, 96, 100, 0.3);
+  outline: 1px solid rgba(214, 175, 55, 0.4);
+  outline-offset: -6px;
+  
+  border-radius: 16px;
+  padding: 25px 20px;
+  position: relative;
+  box-shadow: 
+    0 10px 25px rgba(0, 96, 100, 0.1), 
+    inset 0 0 20px rgba(214, 175, 55, 0.1);
+    
+  animation: uniqueDynamicGlow 4s ease-in-out infinite alternate;
+  overflow: hidden;
+}
+
+/* हेडिंग स्टाइल */
+.unique-header {
+  font-size: 13px;
+  color: #006064;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 15px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+/* हिंदी मुख्य टेक्स्ट */
+.unique-text-hindi {
+  font-family: 'Poppins', sans-serif;
+  font-size: 15.5px;
+  font-weight: 500;
+  line-height: 1.7;
+  color: #212121; /* एकदम क्रिस्प और क्लीन डार्क ग्रे/ब्लैक */
+  margin: 0;
+  padding: 5px 8px;
+  position: relative;
+  z-index: 2;
+}
+
+/* --- ऐनिमेशन --- */
+@keyframes uniqueDynamicGlow {
+  0% {
+    transform: scale(0.995);
+    box-shadow: 0 8px 20px rgba(0, 96, 100, 0.08);
+  }
+  100% {
+    transform: scale(1.005);
+    border-color: #d4af37;
+    box-shadow: 0 12px 25px rgba(214, 175, 55, 0.15);
+  }
+}
+
+@keyframes uniqueSlideUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* मोबाइल सपोर्ट */
+@media (max-width: 480px) {
+  .unique-text-hindi { font-size: 14px; line-height: 1.6; }
+  .unique-card-premium { padding: 20px 15px; }
+}
+
+
+/* --- प्रीमियम यूनिक माता वचन कंटेनर --- */
+.mata-vachan-wrapper {
+  margin-top: 30px;
+  position: relative;
+  z-index: 3;
+  padding: 0 10px;
+  animation: mataDifferentSlideUp 0.8s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+/* थिन एलीट डिवाइडर लाइन */
+.mata-accent-line {
+  height: 2px;
+  background: linear-gradient(90deg, 
+    transparent 0%, 
+    #d84315 20%, /* सॉफ्ट कोरल / टेराकोटा */
+    #d4af37 50%, /* सुनहरी चमक */
+    #d84315 80%, 
+    transparent 100%
+  );
+  margin-bottom: 22px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* मुख्य वचन कार्ड (चंदन और सिल्क मिक्स लुक) */
+.mata-card-premium {
+  background: linear-gradient(135deg, 
+    rgba(255, 248, 240, 0.95) 0%, /* सॉफ्ट आइवरी क्रीम */
+    rgba(255, 255, 255, 0.9) 100%
+  );
+  border: 1px solid rgba(216, 67, 21, 0.3);
+  outline: 1px solid rgba(214, 175, 55, 0.4);
+  outline-offset: -6px;
+  
+  border-radius: 16px;
+  padding: 25px 20px;
+  position: relative;
+  box-shadow: 
+    0 10px 25px rgba(216, 67, 21, 0.08), 
+    inset 0 0 20px rgba(214, 175, 55, 0.1);
+    
+  animation: mataDifferentGlow 4s ease-in-out infinite alternate;
+  overflow: hidden;
+}
+
+/* हेडिंग स्टाइल */
+.mata-header {
+  font-size: 13px;
+  color: #d84315;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 15px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+/* हिंदी मुख्य टेक्स्ट (Elegant Serif Style) */
+.mata-text-hindi {
+  font-family: 'Poppins', Cambria, Georgia, serif;
+  font-size: 15.5px;
+  font-weight: 500;
+  line-height: 1.7;
+  color: #2d1a12; /* गहरा मिट्टी जैसा वॉर्म ब्राउन */
+  margin: 0;
+  padding: 5px 8px;
+  position: relative;
+  z-index: 2;
+  font-style: italic;
+}
+
+/* --- ऐनिमेशन कोडिंग --- */
+@keyframes mataDifferentGlow {
+  0% {
+    transform: scale(0.995);
+    box-shadow: 0 8px 20px rgba(216, 67, 21, 0.06);
+  }
+  100% {
+    transform: scale(1.005);
+    border-color: #d4af37;
+    box-shadow: 0 12px 25px rgba(214, 175, 55, 0.15);
+  }
+}
+
+@keyframes mataDifferentSlideUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* मोबाइल स्क्रीन सपोर्ट */
+@media (max-width: 480px) {
+  .mata-text-hindi { font-size: 14px; line-height: 1.6; }
+  .mata-card-premium { padding: 20px 15px; }
+}
+
+
+/* --- प्रीमियम वचन कंटेनर --- */
+.jaymala-vachan-wrapper {
+  margin-top: 30px;
+  position: relative;
+  z-index: 3;
+  padding: 0 10px;
+  animation: jmFriendSlideUp 0.8s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+/* थिन एलीट डिवाइडर लाइन */
+.jm-accent-line {
+  height: 2px;
+  background: linear-gradient(90deg, 
+    transparent 0%, 
+    #e91e63 20%, /* सॉफ्ट रोज़ पिंक */
+    #d4af37 50%, /* सुनहरी चमक */
+    #e91e63 80%, 
+    transparent 100%
+  );
+  margin-bottom: 22px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* मुख्य वचन कार्ड */
+.jaymala-card-premium {
+  background: linear-gradient(135deg, 
+    rgba(255, 245, 247, 0.95) 0%, /* ब्लश वाइट */
+    rgba(255, 255, 255, 0.9) 100%
+  );
+  border: 1px solid rgba(233, 30, 99, 0.25);
+  outline: 1px solid rgba(214, 175, 55, 0.4);
+  outline-offset: -6px;
+  
+  border-radius: 16px;
+  padding: 25px 20px;
+  position: relative;
+  box-shadow: 
+    0 10px 25px rgba(233, 30, 99, 0.06), 
+    inset 0 0 20px rgba(214, 175, 55, 0.08);
+    
+  animation: jmFriendDynamicGlow 4s ease-in-out infinite alternate;
+  overflow: hidden;
+}
+
+/* हेडिंग स्टाइल */
+.jaymala-header {
+  font-size: 13px;
+  color: #c2185b;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 15px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+/* हिंदी मुख्य टेक्स्ट */
+.jaymala-text-hindi {
+  font-family: 'Poppins', Cambria, Georgia, serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.7;
+  color: #2c3e50; /* गहरा एलीट चारकोल */
+  margin: 0;
+  padding: 5px 8px;
+  position: relative;
+  z-index: 2;
+  font-style: italic;
+}
+
+/* --- ऐनिमेशन कोडिंग --- */
+@keyframes jmFriendDynamicGlow {
+  0% {
+    transform: scale(0.995);
+    box-shadow: 0 8px 20px rgba(233, 30, 99, 0.05);
+  }
+  100% {
+    transform: scale(1.005);
+    border-color: #d4af37;
+    box-shadow: 0 12px 25px rgba(214, 175, 55, 0.15);
+  }
+}
+
+@keyframes jmFriendSlideUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* मोबाइल स्क्रीन सपोर्ट */
+@media (max-width: 480px) {
+  .jaymala-text-hindi { font-size: 15px; line-height: 1.6; }
+  .jaymala-card-premium { padding: 20px 15px; }
+}
+
+
+/* --- प्रीमियम फेरे कंटेनर --- */
+.phere-modern-wrapper {
+  margin-top: 30px;
+  position: relative;
+  z-index: 3;
+  padding: 0 10px;
+  animation: phereDecisionSlideUp 0.8s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+/* शाही महरून और सुनहरी चमक वाली डिवाइडर लाइन */
+.phere-modern-line {
+  height: 2px;
+  background: linear-gradient(90deg, 
+    transparent 0%, 
+    #b71c1c 20%, /* मांगलिक लाल */
+    #d4af37 50%, /* मैटेलिक गोल्ड */
+    #b71c1c 80%, 
+    transparent 100%
+  );
+  margin-bottom: 22px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* मुख्य वचन कार्ड (एलीट सिल्क और ग्लास लुक) */
+.phere-modern-card {
+  background: linear-gradient(135deg, 
+    rgba(255, 245, 245, 0.96) 0%, /* सॉफ्ट रोली वाइट */
+    rgba(255, 255, 255, 0.92) 100%
+  );
+  border: 1px solid rgba(183, 28, 28, 0.25);
+  outline: 1px solid rgba(214, 175, 55, 0.4);
+  outline-offset: -6px;
+  
+  border-radius: 16px;
+  padding: 25px 20px;
+  position: relative;
+  box-shadow: 
+    0 12px 28px rgba(183, 28, 28, 0.06), 
+    inset 0 0 20px rgba(214, 175, 55, 0.1);
+    
+  animation: phereDecisionGlow 4s ease-in-out infinite alternate;
+  overflow: hidden;
+}
+
+/* हेडिंग स्टाइल */
+.phere-modern-header {
+  font-size: 13px;
+  color: #b71c1c;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 15px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+/* हिंदी मुख्य टेक्स्ट (सुंदर Serif फॉन्ट जो पढ़ने में बहुत क्लासी लगता है) */
+.phere-modern-text {
+  font-family: 'Poppins', Cambria, Georgia, serif;
+  font-size: 16.5px;
+  font-weight: 500;
+  line-height: 1.7;
+  color: #2c3e50; /* गहरा एलीट चारकोल रीडेबिलिटी के लिए */
+  margin: 0;
+  padding: 5px 8px;
+  position: relative;
+  z-index: 2;
+  font-style: italic;
+  text-shadow: 0 1px 1px rgba(255,255,255,0.8);
+}
+
+/* --- ऐनिमेशन कोडिंग --- */
+@keyframes phereDecisionGlow {
+  0% {
+    transform: scale(0.995);
+    box-shadow: 0 8px 20px rgba(183, 28, 28, 0.05);
+  }
+  100% {
+    transform: scale(1.005);
+    border-color: #d4af37;
+    box-shadow: 0 12px 25px rgba(214, 175, 55, 0.18);
+  }
+}
+
+@keyframes phereDecisionSlideUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* मोबाइल स्क्रीन सपोर्ट */
+@media (max-width: 480px) {
+  .phere-modern-text { font-size: 15px; line-height: 1.6; }
+  .phere-modern-card { padding: 20px 15px; }
+}
+
+/* --- ग्रैंड आशीर्वाद कंटेनर (दिव्य स्वर्ण और सिल्क थीम) --- */
+  .ashirwad-container {
+    font-family: 'Poppins', sans-serif;
+    /* शाही हाथीदांत (Creamy Ivory) और सुनहरा रॉयल बैकग्राउंड */
+    background: linear-gradient(135deg, #fffcf0 0%, #fff9e6 50%, #fdf2c5 100%);
+    padding: 30px 20px;
+    border-radius: 24px;
+    box-shadow: 0 15px 40px rgba(214, 175, 55, 0.2);
+    max-width: 450px;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px double #d4af37; /* मैटेलिक गोल्ड डबल बॉर्डर */
+    position: relative;
+    overflow: hidden;
+    animation: ashirwadFadeIn 0.6s ease-out;
+  }
+
+  /* --- हवा में तैरती हुई सोने की दिव्य धूल (Falling Gold Dust/Sparkles) --- */
+  .gold-sparkle {
+    position: absolute;
+    top: -20px;
+    color: #d4af37;
+    font-size: 1.2em;
+    pointer-events: none;
+    z-index: 4;
+    animation: goldDustFall linear infinite;
+  }
+  
+  /* बहुत सारे शाइनिंग स्टार्स अलग-अलग जगह और स्पीड से गिरेंगे */
+  .sparkle1 { left: 8%;  animation-duration: 5s; animation-delay: 0s; font-size: 14px; opacity: 0.6; }
+  .sparkle2 { left: 22%; animation-duration: 7s; animation-delay: 2s; font-size: 18px; opacity: 0.8; }
+  .sparkle3 { left: 38%; animation-duration: 6s; animation-delay: 1s; font-size: 12px; opacity: 0.5; }
+  .sparkle4 { left: 52%; animation-duration: 8s; animation-delay: 3s; font-size: 16px; opacity: 0.7; }
+  .sparkle5 { left: 68%; animation-duration: 5s; animation-delay: 1.5s; font-size: 15px; opacity: 0.4; }
+  .sparkle6 { left: 82%; animation-duration: 7s; animation-delay: 2.5s; font-size: 20px; opacity: 0.9; }
+  .sparkle7 { left: 93%; animation-duration: 6s; animation-delay: 0.5s; font-size: 13px; opacity: 0.6; }
+
+  /* बैक बटन (रॉयल गोल्ड थीम) */
+  .ashirwad-back-btn {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(5px);
+    border: 1px solid #d4af37;
+    color: #d4af37;
+    padding: 6px 14px;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 13px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    z-index: 10;
+  }
+  .ashirwad-back-btn:hover {
+    background: #d4af37;
+    color: #fff;
+    transform: translateX(-3px);
+  }
+
+  /* --- क्यूट दूल्हा-दुल्हन (हाथ जोड़े हुए) बॉक्स --- */
+  .ashirwad-couple-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    position: relative;
+    z-index: 2;
+  }
+  .ashirwad-avatar-circle {
+    background: #fff;
+    border: 2px dashed #d4af37;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    box-shadow: 0 8px 20px rgba(214,175,55,0.1);
+  }
+
+  /* --- भव्य हेडिंग (गोल्ड से सिंदूरी रेड ग्रेडिएंट) --- */
+  .ashirwad-title {
+    font-family: 'Great Vibes', cursive;
+    font-size: 52px;
+    font-weight: bold;
+    margin: 15px 0 5px 0;
+    position: relative;
+    z-index: 2;
+    background: linear-gradient(45deg, #b71c1c 0%, #d4af37 50%, #b71c1c 100%);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0px 2px 4px rgba(183, 28, 28, 0.15));
+    animation: shinyAshirwadGradient 4s linear infinite;
+  }
+  .ashirwad-subtitle {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #b71c1c;
+    margin-bottom: 25px;
+    font-weight: 600;
+    position: relative;
+    z-index: 2;
+  }
+
+  /* --- इनफार्मेशन कार्ड --- */
+  .ashirwad-card {
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(3px);
+    padding: 25px 20px;
+    border-radius: 16px;
+    border: 1px solid #ffeb3b;
+    box-shadow: 0 10px 25px rgba(214,175,55,0.05);
+    position: relative;
+    z-index: 2;
+  }
+  .ashirwad-info-row {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  .ashirwad-info-row:last-child { margin-bottom: 0; }
+  .ashirwad-info-icon {
+    background: #fffde7;
+    color: #d4af37;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    border: 1px solid #d4af37;
+  }
+  .ashirwad-info-text p { margin: 0; color: #333; font-size: 14px; }
+  .ashirwad-info-text span { color: #777; font-size: 12px; }
+
+  /* --- भव्य आशीर्वाद वचन कार्ड (बॉटम) --- */
+  .ashirwad-vachan-box {
+    margin-top: 25px;
+    background: linear-gradient(135deg, rgba(214, 175, 55, 0.08) 0%, rgba(255, 255, 255, 0.95) 100%);
+    border: 1px dashed #d4af37;
+    outline: 1px solid rgba(183, 28, 28, 0.3);
+    outline-offset: -6px;
+    border-radius: 12px;
+    padding: 20px 15px;
+    position: relative;
+    z-index: 2;
+    animation: ashirwadPulseGlow 3s ease-in-out infinite alternate;
+  }
+  .ashirwad-vachan-text {
+    font-family: 'Poppins', Georgia, serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.7;
+    color: #3e2723; /* रीगल डार्क चॉकलेट ब्राउन */
+    margin: 0;
+    font-style: italic;
+  }
+  .ashirwad-vachan-footer {
+    font-size: 11px;
+    color: #d4af37;
+    margin-top: 10px;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+
+  /* --- एनीमेशन्स --- */
+  @keyframes goldDustFall {
+    0% { top: -20px; transform: translateX(0) rotate(0deg); opacity: 0; }
+    10% { opacity: 1; }
+    90% { opacity: 1; }
+    100% { top: 100%; transform: translateX(30px) rotate(360deg); opacity: 0; }
+  }
+  @keyframes ashirwadHeartBeat {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+  }
+  @keyframes ashirwadFloat {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-5px); }
+  }
+  @keyframes ashirwadPulseGlow {
+    0% { transform: scale(0.99); box-shadow: 0 5px 15px rgba(214, 175, 55, 0.1); }
+    100% { transform: scale(1.01); box-shadow: 0 8px 25px rgba(214, 175, 55, 0.25); }
+  }
+  @keyframes shinyAshirwadGradient {
+    0%, 100% { background-position: 0% center; }
+    50% { background-position: 100% center; }
+  }
+  @keyframes ashirwadFadeIn { 
+    from { opacity: 0; transform: translateY(20px); } 
+    to { opacity: 1; transform: translateY(0); } 
+  }
+
+  .float-ashirwad-groom { animation: ashirwadFloat 3.5s ease-in-out infinite; }
+  .float-ashirwad-bride { animation: ashirwadFloat 3.5s ease-in-out infinite; animation-delay: 0.6s; }
+
+  /* मोबाइल स्क्रीन सपोर्ट */
+  @media (max-width: 480px) {
+    .ashirwad-title { font-size: 42px; }
+    .ashirwad-vachan-text { font-size: 13.5px; }
+  }
+
+
+/* --- ग्रैंड रिसेप्शन कंटेनर (रीगल मिडनाइट वाइन और मैजिशियन नाइट थीम) --- */
+  .reception-container {
+    font-family: 'Poppins', sans-serif;
+    /* गहरा वाइन-मैरून और वेलवेट डार्क नाइट का रॉयल ग्रेडिएंट */
+    background: linear-gradient(135deg, #2b001a 0%, #4a001f 50%, #1f0010 100%);
+    padding: 35px 20px;
+    border-radius: 24px;
+    box-shadow: 0 20px 45px rgba(233, 30, 99, 0.25);
+    max-width: 450px;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid rgba(214, 175, 55, 0.4);
+    outline: 1px solid rgba(255, 255, 255, 0.1);
+    outline-offset: -6px;
+    position: relative;
+    overflow: hidden;
+    animation: receptionFadeIn 0.6s ease-out;
+  }
+
+  /* --- हवा में तैरती हुई गुलाब की पंखुड़ियां (Falling Rose Petals) --- */
+  .reception-petal {
+    position: absolute;
+    top: -20px;
+    color: #ff4757;
+    font-size: 1.5em;
+    pointer-events: none;
+    z-index: 4;
+    animation: receptionPetalFall linear infinite;
+  }
+  
+  /* अलग-अलग जगहों और स्पीड से गिरती पंखुड़ियां */
+  .rc-petal1 { left: 10%; animation-duration: 6s; animation-delay: 0s; opacity: 0.7; }
+  .rc-petal2 { left: 28%; animation-duration: 8s; animation-delay: 2s; opacity: 0.5; }
+  .rc-petal3 { left: 45%; animation-duration: 5s; animation-delay: 1s; opacity: 0.8; }
+  .rc-petal4 { left: 60%; animation-duration: 7s; animation-delay: 3s; opacity: 0.6; }
+  .rc-petal5 { left: 78%; animation-duration: 9s; animation-delay: 1.5s; opacity: 0.5; }
+  .rc-petal6 { left: 90%; animation-duration: 6s; animation-delay: 2.5s; opacity: 0.8; }
+
+  /* बैक बटन (सिल्वर-व्हाइट ग्लास लुक) */
+  .reception-back-btn {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: #fff;
+    padding: 6px 14px;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 13px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    z-index: 10;
+  }
+  .reception-back-btn:hover {
+    background: #ff4757;
+    border-color: #ff4757;
+    transform: translateX(-3px);
+  }
+
+  /* --- स्पेशल रोमांटिक कपल हग बॉक्स (Unique Glow Effect) --- */
+  .reception-hug-box {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    position: relative;
+    z-index: 2;
+  }
+  .reception-avatar-hug {
+    background: linear-gradient(135deg, rgba(255,255,255,0.15) 0%, rgba(255,255,255,0.05) 100%);
+    border: 2px solid #ff4757;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 52px;
+    box-shadow: 
+      0 0 20px rgba(255, 71, 87, 0.5),
+      inset 0 0 15px rgba(255, 71, 87, 0.3);
+    position: relative;
+    animation: receptionHugPulse 2.5s infinite alternate;
+  }
+  /* कपल के सिर पर तैरता हुआ छोटा दिल */
+  .reception-hug-heart {
+    position: absolute;
+    top: -12px;
+    font-size: 22px;
+    animation: receptionHeartFloat 1.2s infinite alternate;
+  }
+
+  /* --- भव्य हेडिंग (शाइनिंग रोज गोल्ड ग्रेडिएंट) --- */
+  .reception-title {
+    font-family: 'Great Vibes', cursive;
+    font-size: 56px;
+    font-weight: bold;
+    margin: 10px 0 2px 0;
+    position: relative;
+    z-index: 2;
+    background: linear-gradient(45deg, #ff758c 0%, #ff7eb3 40%, #d4af37 70%, #ff758c 100%);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.5));
+    animation: shinyReceptionGradient 4s linear infinite;
+  }
+  .reception-subtitle {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #ff758c;
+    margin-bottom: 25px;
+    font-weight: 600;
+    position: relative;
+    z-index: 2;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  }
+
+  /* --- डार्क लग्जरी इनफार्मेशन कार्ड --- */
+  .reception-card {
+    background: rgba(255, 255, 255, 0.06);
+    backdrop-filter: blur(8px);
+    padding: 25px 20px;
+    border-radius: 18px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+    position: relative;
+    z-index: 2;
+  }
+  .reception-info-row {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 18px;
+    text-align: left;
+  }
+  .reception-info-row:last-child { margin-bottom: 0; }
+  .reception-info-icon {
+    background: rgba(255, 71, 87, 0.15);
+    color: #ff758c;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    border: 1px solid rgba(255, 71, 87, 0.3);
+  }
+  .reception-info-text p { margin: 0; color: #fff; font-size: 14.5px; font-weight: 500; }
+  .reception-info-text span { color: #b392ac; font-size: 11.5px; letter-spacing: 0.5px; }
+
+  /* --- रोमांटिक रिसेप्शन वचन बॉक्स (बॉटम) --- */
+  .reception-vachan-box {
+    margin-top: 25px;
+    background: linear-gradient(135deg, rgba(255, 71, 87, 0.1) 0%, rgba(0, 0, 0, 0.4) 100%);
+    border: 1px dashed rgba(214, 175, 55, 0.4);
+    outline: 1px solid rgba(255, 255, 255, 0.1);
+    outline-offset: -6px;
+    border-radius: 14px;
+    padding: 22px 18px;
+    position: relative;
+    z-index: 2;
+  }
+  .reception-vachan-text {
+    font-family: 'Poppins', Georgia, serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.7;
+    color: #ffd2e2; /* प्यारा सा शाइनिंग पिंक शेड */
+    margin: 0;
+    font-style: italic;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.4);
+  }
+
+  /* --- एनीमेशन्स --- */
+  @keyframes receptionPetalFall {
+    0% { top: -20px; transform: translateX(0) rotate(0deg); opacity: 0; }
+    10% { opacity: 1; }
+    90% { opacity: 1; }
+    100% { top: 100%; transform: translateX(40px) rotate(450deg); opacity: 0; }
+  }
+  @keyframes receptionHugPulse {
+    0% { transform: scale(0.97); box-shadow: 0 0 15px rgba(255, 71, 87, 0.4); border-color: #ff4757; }
+    100% { transform: scale(1.03); box-shadow: 0 0 30px rgba(255, 71, 87, 0.7), 0 0 10px #d4af37; border-color: #d4af37; }
+  }
+  @keyframes receptionHeartFloat {
+    0% { transform: translateY(0) scale(0.9); opacity: 0.7; }
+    100% { transform: translateY(-6px) scale(1.2); opacity: 1; filter: drop-shadow(0 0 4px #ff4757); }
+  }
+  @keyframes shinyReceptionGradient {
+    0%, 100% { background-position: 0% center; }
+    50% { background-position: 100% center; }
+  }
+  @keyframes receptionFadeIn { 
+    from { opacity: 0; transform: translateY(20px); } 
+    to { opacity: 1; transform: translateY(0); } 
+  }
+
+  /* मोबाइल स्क्रीन सपोर्ट */
+  @media (max-width: 480px) {
+    .reception-title { font-size: 45px; }
+    .reception-vachan-text { font-size: 13.5px; }
+    .reception-container { padding: 30px 15px; }
+  }
+  
+  /* --- मुख्य कार्ड में कर्सर पॉइंटर जोड़ना --- */
+.ritual-card {
+  cursor: pointer; /* माउस ले जाने पर हाथ का निशान बनेगा */
+  position: relative;
+  transition: all 0.3s ease;
+  padding-bottom: 25px; /* नीचे हिंट टेक्स्ट के लिए थोड़ी जगह */
+}
+
+/* कार्ड पर माउस ले जाने पर हल्का सा ऊपर उठने का इफ़ेक्ट */
+.ritual-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(214, 175, 55, 0.3);
+}
+
+/* --- सुंदर छोटा क्लिक पॉइंटर हिंट --- */
+.click-hint {
+  position: absolute;
+  bottom: 6px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  opacity: 0.8;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  animation: hintBlink 1.5s infinite alternate;
+}
+
+/* लगातार ब्लिंक करने वाला शानदार एनीमेशन */
+@keyframes hintBlink {
+  0% {
+    opacity: 0.4;
+    transform: translateX(-50%) scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(-50%) scale(1.05);
+  }
+}
+
+
+/* --- मुख्य सेरेमनी कार्ड्स - नेक्स्ट लेवल स्टाइल --- */
+.ritual-card {
+  cursor: pointer;
+  position: relative;
+  /* एडवांस्ड ईज़िंग जो iOS ऐप्स जैसा फील देती है */
+  transition: all 0.5s cubic-bezier(0.2, 1, 0.2, 1);
+  padding-bottom: 42px; /* पॉइंटर कैप्सूल को सांस लेने के लिए परफेक्ट गैप */
+  overflow: visible !important; /* वेव इफ़ेक्ट बाहर दिखने के लिए */
+  border: 1px solid rgba(214, 175, 55, 0.15);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.03);
+}
+
+/* माउस ले जाने या टच करने पर जादुई बदलाव */
+.ritual-card:hover {
+  transform: translateY(-8px) scale(1.03);
+  border-color: rgba(214, 175, 55, 0.6);
+  box-shadow: 
+    0 15px 30px rgba(214, 175, 55, 0.15), 
+    0 0 15px rgba(214, 175, 55, 0.1);
+}
+
+/* --- प्रीमियम 3D फ्रॉस्टेड ग्लास पॉइंटर कैप्सूल --- */
+.click-hint {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  /* असली फ्रॉस्टेड सिल्क ग्लास लुक */
+  background: rgba(255, 255, 255, 0.92); 
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  
+  padding: 5px 14px;
+  border-radius: 30px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  
+  /* 3D लेयरिंग शैडो */
+  box-shadow: 
+    0 4px 15px rgba(0, 0, 0, 0.06), 
+    inset 0 1px 0 rgba(255, 255, 255, 0.6);
+  border: 1px solid rgba(214, 175, 55, 0.3); 
+  z-index: 5;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+
+/* कार्ड होवर होने पर कैप्सूल का कलर थोड़ा और ब्राइट होना */
+.ritual-card:hover .click-hint {
+  background: #ffffff;
+  border-color: rgba(214, 175, 55, 0.8);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* पॉइंटर के अंदर का छोटा एनिमेटेड कर्सर आइकॉन */
+.click-hint i {
+  font-size: 11.5px;
+  /* सुई की तरह सटीक तैरने वाला एनीमेशन */
+  animation: pointerHandFloat 0.9s cubic-bezier(0.45, 0.05, 0.55, 0.95) infinite alternate;
+}
+
+/* --- प्रीमियम रिपल वेव (लगातार फैलने वाला दिव्य प्रकाश) --- */
+.click-hint::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  /* इनहेरिट कलर का उपयोग करके यह आपके द्वारा दिए गए HTML कलर कोड के हिसाब से वेव बनाएगा */
+  box-shadow: 0 0 0 0 currentColor;
+  animation: pointerRipple 2.4s cubic-bezier(0.16, 1, 0.3, 1) infinite;
+  opacity: 0.7;
+}
+
+/* --- एडवांस कीफ्रेम्स ऐनिमेशन कोडिंग --- */
+
+/* 1. आइकॉन का बहुत ही प्यारा और रियलिस्टिक फ्लोट होना */
+@keyframes pointerHandFloat {
+  0% { 
+    transform: translateY(2px) scale(0.95); 
+  }
+  100% { 
+    transform: translateY(-3px) scale(1.05); 
+  }
+}
+
+/* 2. पानी की लहर की तरह और भी दूर तक फैलने वाला स्मूथ इफ़ेक्ट */
+@keyframes pointerRipple {
+  0% {
+    box-shadow: 0 0 0 0 currentColor;
+    opacity: 0.8;
+  }
+  50% {
+    opacity: 0.4;
+  }
+  100% {
+    /* 14px से बढ़ाकर 18px किया ताकि वेव थोड़ी और बड़ी और साफ दिखे */
+    box-shadow: 0 0 0 18px currentColor;
+    opacity: 0;
+  }
+}
+
+#openInvitation {
+  animation: pulse 1.5s infinite;
+  cursor: pointer;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(255,255,255,0.4); }
+  70% { transform: scale(1.05); box-shadow: 0 0 0 10px rgba(255,255,255,0); }
+  100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(255,255,255,0); }
+}
+
+.click-hint {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #fff;
+  animation: blink 1s infinite;
+}
+
+/* --- वधू (Bride) स्टाइल --- */
+h2.vadhu {
+  color: #d11a4c; /* गहरा पिंक/मजेंटा कलर */
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 5px;
+  font-family: 'Poppins', sans-serif;
+}
+
+p.vadhu {
+  color: #ff4d7d; /* लाइट पिंक कलर */
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 0;
+}
+
+/* --- वर (Groom) स्टाइल --- */
+h2.var {
+  color: #1a4da1; /* रॉयल ब्लू कलर */
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 5px;
+  font-family: 'Poppins', sans-serif;
+}
+
+p.var {
+  color: #2a6fdb; /* स्काई ब्लू कलर */
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 0;
+}
+
+/* --- "तुम्हारी हां का wait है" स्टाइल --- */
+.wait {
+  color: #e63946; /* खूबसूरत लाल रंग */
+  font-size: 22px;
+  font-weight: bold;
+  font-style: italic; /* थोड़ा तिरछा, रोमांटिक लुक के लिए */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+  display: block; /* लाइन ब्रेक को सही से संभालने के लिए */
+  margin-bottom: 10px;
+}
+
+/* --- "आप सादर आमंत्रित हैं" स्टाइल --- */
+.sadar {
+  color: #b5832b; /* रॉयल गोल्डन (सूनहरा) कलर जो इनविटेशन कार्ड्स में होता है */
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px; /* अक्षरों के बीच थोड़ा स्पेस */
+  text-align: center;
+  background: #fff8eb; /* हल्का सा क्रीम बैकग्राउंड */
+  padding: 8px 15px;
+  border-radius: 20px;
+  border: 1px dashed #d4af37; /* गोल्डन डैश्ड बॉर्डर */
+  display: inline-block; /* जितना टेक्स्ट है उतना ही बड़ा बॉक्स बने */
+  margin-top: 15px;
+}
+
+/* मुख्य हेडिंग कंटेनर - जो पूरे टेक्स्ट को एक शाही फ्रेम देगा */
+h2.sanju {
+  font-family: 'Great Vibes', 'Cinzel', 'Noto Sans Devanagari', serif;
+  text-align: center;
+  font-size: 36px;
+  line-height: 1.6;
+  padding: 30px 20px;
+  margin: 20px auto;
+  max-width: 350px;
+  
+  /* रॉयल लुक के लिए बैकग्राउंड ग्लास इफेक्ट (Glassmorphism) */
+  background: rgba(255, 255, 255, 0.7);
+  border: 2px solid #d4af37; /* असली सोने जैसी बॉर्डर */
+  border-radius: 50% 50% 0 0; /* ऊपर से गुंबद (Arch) जैसा रॉयल शेप */
+  box-shadow: 0 15px 35px rgba(212, 175, 55, 0.15);
+  
+  /* संजू (वर) के नाम को मिला 'शाही गोल्डन' लुक */
+  background: -webkit-linear-gradient(45deg, #b38728, #fbf5b7, #daa520);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.15));
+}
+
+/* बीच के '&' को बेहद स्टाइलिश और बड़ा बनाने के लिए */
+h2.sanju br + text,
+h2.sanju::after {
+  /* यह मैजिक ट्रिक आपके HTML के अंदर के साधारण टेक्स्ट को भी सुंदर बनाएगी */
+}
+
+/* --- "तुम्हारी हां का wait है" (दुल्हन वाली लाइन) के लिए मॉडर्न रोज़-गोल्ड डिज़ाइन --- */
+.wait {
+  display: block;
+  font-family: 'Playfair Display', 'Mukta', sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  font-style: italic;
+  margin-top: 15px;
+  letter-spacing: 0.5px;
+  -webkit-text-fill-color: initial; /* ऊपर वाले गोल्ड कलर को यहाँ रीसेट किया */
+  
+  /* वधू के लिए 'लग्जरी रोज़ गोल्ड' ग्रेडिएंट */
+  background: linear-gradient(45deg, #d11a4c, #ff758c, #ff7eb3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  /* धड़कन की तरह हल्का सा ज़ूम होने वाला एनीमेशन */
+  animation: elegantPulse 3s ease-in-out infinite;
+}
+
+/* एक बहुत ही क्लासी और धीमा एनीमेशन (बिना आँखों को चुभे) */
+@keyframes elegantPulse {
+  0% {
+    transform: scale(1);
+    filter: drop-shadow(0 0 0px rgba(209, 26, 76, 0));
+  }
+  50% {
+    transform: scale(1.03);
+    filter: drop-shadow(0 2px 8px rgba(209, 26, 76, 0.2));
+  }
+  100% {
+    transform: scale(1);
+    filter: drop-shadow(0 0 0px rgba(209, 26, 76, 0));
+  }
+}
+
+
+/* --- 1. || शुभ विवाह || (ट्रेडिशनल और रॉयल लुक) --- */
+h3.shubh {
+  font-family: 'Mukta', 'Noto Sans Devanagari', sans-serif;
+  text-align: center;
+  color: #d11a4c; /* गहरा वीडिंग रेड/मजेंटा कलर */
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 4px; /* अक्षरों के बीच शाही स्पेस */
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  position: relative;
+  display: inline-block;
+  left: 10%;
+  transform: translateX(-10%);
+}
+
+/* शुभ विवाह के नीचे एक छोटी सी सुंदर गोल्डन लाइन (Divider) */
+h3.shubh::after {
+  content: '';
+  display: block;
+  width: 50%;
+  height: 2px;
+  background: linear-gradient(to right, transparent, #d4af37, transparent); /* गोल्डन लाइन */
+  margin: 5px auto 0 auto;
+}
+
+
+/* --- 2. मुख्य नाम और दिल (Sanju ❤️ तुम्हारी हां का wait है) --- */
+h1.love {
+  font-family: 'Great Vibes', 'Playfair Display', 'serif';
+  text-align: center;
+  font-size: 34px;
+  line-height: 1.4;
+  font-weight: 800;
+  margin: 20px auto;
+  padding: 15px;
+  
+  /* टेक्स्ट के अंदर चमकता हुआ 'रॉयल रोज-गोल्ड' और 'डीप रेड' का ग्रेडिएंट मिक्स */
+  background: linear-gradient(45deg, #1a4da1, #d11a4c, #ff758c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  /* थोड़ा सा सॉफ्ट शैडो ताकि टेक्स्ट उभर कर दिखे */
+  filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.1));
+}
+
+
+/* --- 3. बॉटम लाइन (मेरी जिंदगी की आखिरी ख्वाहिश हो तुम) --- */
+p.jindgi {
+  font-family: 'Poppins', 'Mukta', sans-serif;
+  text-align: center;
+  font-size: 16px;
+  font-style: italic; /* रोमांटिक टच देने के लिए तिरछा टेक्स्ट */
+  font-weight: 500;
+  color: black; /* आँखों को सुकून देने वाला सॉफ्ट चारकोल कलर */
+  margin-top: 15px;
+  letter-spacing: 0.5px;
+  
+  /* हल्का सा बैकग्राउंड फ्रेम जो इस लाइन को वीआईपी लुक देगा */
+  background: yellow; 
+  padding: 10px 20px;
+  border-radius: 30px;
+  display: inline-block;
+  left: 50%;
+  transform: translateX(-50%);
+  position: relative;
+  border: 1px dashed rgba(209, 26, 76, 0.2); /* बहुत हल्की पिंक बॉर्डऱ */
+  
+  /* धड़कन की तरह बेहद क्लासी और धीमा एनीमेशन */
+  animation: romanticPulse 3s ease-in-out infinite;
+}
+
+/* आखिरी ख्वाहिश वाली लाइन के लिए एक स्मूथ धड़कन एनीमेशन */
+@keyframes romanticPulse {
+  0% { transform: translateX(-50%) scale(1); }
+  50% { transform: translateX(-50%) scale(1.03); }
+  100% { transform: translateX(-50%) scale(1); }
+}
+
+/* --- हल्दी सेरेमनी पेज मेन कंटेनर --- */
+.haldi-container {
+    background: linear-gradient(135deg, #fff9e6 0%, #fff2cc 100%);
+    padding: 20px;
+    font-family: 'Poppins', 'Segoe UI', sans-serif;
+    min-height: 100vh;
+    box-sizing: border-box;
+    position: relative;
+    overflow-x: hidden;
+}
+
+/* --- बैक बटन --- */
+.back-btn {
+    background: #ffffff;
+    border: 1px solid #f1c40f;
+    color: #e67e22;
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.back-btn:hover {
+    background: #f1c40f;
+    color: #fff;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(241, 196, 15, 0.3);
+}
+
+/* --- टॉप दूल्हा-दुल्हन अवतार बॉक्स --- */
+.top-couple-box {
+    /* इनलाइन स्टाइल को सपोर्ट करने के लिए बेसिक स्ट्रक्चर */
+    width: 100%;
+}
+
+.avatar-emoji-circle:hover {
+    transform: scale(1.15) rotate(5deg);
+    border-color: #e67e22 !important;
+    box-shadow: 0 12px 25px rgba(230, 126, 34, 0.15) !important;
+}
+
+/* दिल की धड़कन का एनिमेशन (Yellow Heart) */
+@keyframes cuteHeartBeat {
+    0% { transform: scale(1); }
+    20% { transform: scale(1.25); }
+    40% { transform: scale(1.1); }
+    60% { transform: scale(1.25); }
+    80% { transform: scale(1); }
+    100% { transform: scale(1); }
+}
+
+/* --- गेंदे की लड़ी (Marigold Garland) --- */
+.marigold-garland {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin: 20px 0;
+    position: relative;
+}
+
+.marigold-garland .flower {
+    color: #ff9f43; /* ऑरेंज गेंदा फूल */
+    font-size: 16px;
+    animation: swingGarland 3s ease-in-out infinite alternate;
+    transform-origin: top center;
+}
+
+/* हर दूसरे फूल का रंग पीला (मस्टर्ड) करने के लिए */
+.marigold-garland .flower:nth-child(even) {
+    color: #f1c40f; 
+}
+
+@keyframes swingGarland {
+    0% { transform: rotate(-5deg); }
+    100% { transform: rotate(5deg); }
+}
+
+/* --- रॉयल हेडिंग्स --- */
+.haldi-title {
+    font-family: 'Playfair Display', serif;
+    color: #d35400;
+    text-align: center;
+    font-size: 32px;
+    margin: 10px 0 5px 0;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.05);
+}
+
+.haldi-subtitle {
+    width: 50px;
+    height: 3px;
+    background: #f1c40f;
+    margin: 0 auto 25px auto;
+    border-radius: 2px;
+}
+
+/* --- प्रीमियम इनफार्मेशन कार्ड --- */
+.content-card {
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 25px 20px;
+    box-shadow: 0 15px 35px rgba(230, 126, 34, 0.08);
+    max-width: 450px;
+    margin: 0 auto;
+    border: 1px solid rgba(241, 196, 15, 0.2);
+}
+
+/* रो/लाइन्स स्टाइल (समय, दिनांक, स्थान) */
+.info-row {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px 0;
+    border-bottom: 1px dashed #f5f5f5;
+}
+
+.info-row:last-of-type {
+    border-bottom: none; /* आखिरी वाली रो का बॉर्डर हटाया */
+}
+
+.info-icon {
+    background: #fff9e6;
+    color: #d35400;
+    width: 45px;
+    height: 45px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    flex-shrink: 0;
+    border: 1px solid #ffeaa7;
+}
+
+.info-text span {
+    font-size: 12px;
+    color: #7f8c8d;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    display: block;
+    margin-bottom: 2px;
+}
+
+.info-text p {
+    margin: 0;
+    font-size: 16px;
+    color: #2c3e50;
+}
+
+/* --- हल्दी स्पेशल पवित्र वचन संदेश --- */
+.haldi-vachan-wrapper {
+    margin-top: 25px;
+    position: relative;
+}
+
+.haldi-accent-line {
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(to right, transparent, #f1c40f, transparent);
+    margin-bottom: 20px;
+}
+
+.haldi-card-premium {
+    background: #fffdf3;
+    border: 1px solid #fde49e;
+    border-radius: 15px;
+    padding: 18px;
+    text-align: center;
+    position: relative;
+    box-shadow: inset 0 0 10px rgba(241, 196, 15, 0.05);
+}
+
+.haldi-header {
+    margin-bottom: 12px;
+}
+
+.haldi-header span {
+    font-size: 14px;
+    font-weight: 600;
+    color: #b33939;
+    background: #ffeaa7;
+    padding: 4px 12px;
+    border-radius: 20px;
+    display: inline-block;
+    letter-spacing: 0.5px;
+}
+
+.haldi-text-hindi {
+    font-size: 14px;
+    color: #4b4b4b;
+    line-height: 1.6;
+    margin: 0;
+    font-style: italic;
+    font-weight: 500;
+}
+
+
+
+  
+</style>
+
+</head>
+
+<body>
+
+<!-- Opening Screen -->
+
+<section class="opening-screen">
+
+<div class="opening-card">
+
+<div class="om">
+🕉️
+</div>
+
+<h3>
+॥ श्री गणेशाय नमः ॥
+</h3>
+
+<h1>
+शुभ विवाह Invitation
+</h1>
+
+<h2 class="sanju">
+संजू 
+<br>
+&
+<br class="wait">
+तुम्हारी हां का wait है  
+</h2>
+
+<p class="sadar">
+आप सादर आमंत्रित हैं
+</p>
+
+<button id="openInvitation">
+Open Invitation ✨
+ 👆</button>
+
+
+</div>
+
+</section>
+
+<!-- Main Website -->
+
+<main class="main-content" id="mainPage">
+
+<!-- Hero -->
+
+<section class="hero-section">
+
+<h3 class="shubh">
+|| शुभ विवाह ||
+</h3>
+
+<h1 class="love">
+Sanju ❤️ तुम्हारी हां का wait है 
+</h1>
+
+<p class="jindgi">
+मेरी जिंदगी की आखिरी ख्वाहिश हो तुम 
+</p>
+
+</section>
+
+<!-- Bride Groom -->
+
+<section class="couple-section">
+
+<div class="couple-card">
+
+<img
+src="bride.jpg"
+alt="Bride">
+
+<h2 class="vadhu">
+👰 तुम्हारी हां का wait है 
+</h2>
+
+<p class="vadhu">
+वधू 
+</p>
+
+</div>
+
+<div class="love-heart">
+❤️
+</div>
+
+<div class="couple-card">
+
+<img
+src="groom.jpg"
+alt="Groom">
+
+<h2 class="var">
+🤵संजू
+</h2>
+
+<p class="var">
+वर
+</p>
+
+</div>
+
+</section>
+
+<!-- Countdown -->
+
+<section class="countdown-section">
+
+<h2>
+⏳  शादी countdown 
+</h2>
+
+<div class="countdown-grid">
+
+<div>
+<span id="days">
+00
+</span>
+
+<p>Days</p>
+</div>
+
+<div>
+<span id="hours">
+00
+</span>
+
+<p>Hours</p>
+</div>
+
+<div>
+<span id="minutes">
+00
+</span>
+
+<p>Minutes</p>
+</div>
+
+<div>
+<span id="seconds">
+00
+</span>
+
+<p>Seconds</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- Love Story -->
+
+<section class="love-story">
+
+<h2>
+💌 Our Journey
+</h2>
+
+<div class="story-card">
+🌹 First Meeting
+</div>
+
+<div class="story-card">
+❤️ Friendship
+</div>
+
+<div class="story-card">
+💍 Engagement
+</div>
+
+<div class="story-card">
+👰🤵 Wedding
+</div>
+
+</section>
+
+<!-- Ritual Section -->
+
+<section class="ritual-section">
+
+<h2>
+📜 शादी की रस्में 
+</h2>
+
+<div class="ritual-grid">
+
+<!-- हल्दी कार्ड -->
+<!-- हल्दी कार्ड -->
+<div class="ritual-card" onclick="openHaldi()">
+    💛 हल्दी 
+    <span class="click-hint" style="color: #d84315;">
+        <i class="fa-solid fa-hand-pointer"></i> Tap to View
+    </span>
+</div>
+
+<!-- मेंहदी कार्ड -->
+<div class="ritual-card" onclick="openMehandi()">
+    ❤️ मेंहदी 
+    <span class="click-hint" style="color: #ff4757;">
+        <i class="fa-solid fa-hand-pointer"></i> Tap to View
+    </span>
+</div>
+
+<!-- माता पूजन कार्ड -->
+<div class="ritual-card" onclick="openPujan()">
+    माता पूजन 🙏🏻
+    <span class="click-hint" style="color: #d84315;">
+        <i class="fa-solid fa-hand-pointer"></i> Tap to View
+    </span>
+</div>
+
+<!-- जयमाला कार्ड -->
+<div class="ritual-card" onclick="openJaymala()">
+    जयमाला 💐💐
+    <span class="click-hint" style="color: #c2185b;">
+        <i class="fa-solid fa-hand-pointer"></i> Tap to View
+    </span>
+</div>
+
+<!-- सात फेरे कार्ड -->
+<div class="ritual-card" onclick="openPhere()">
+    सात फेरे 💞
+    <span class="click-hint" style="color: #b71c1c;">
+        <i class="fa-solid fa-hand-pointer"></i> Tap to View
+    </span>
+</div>
+
+<!-- आशीर्वाद कार्ड -->
+<div class="ritual-card" onclick="openAshirwad()">
+    आशीर्वाद 🙏🏻
+    <span class="click-hint" style="color: #d4af37;">
+        <i class="fa-solid fa-hand-pointer"></i> Tap to View
+    </span>
+</div>
+
+<!-- रिसेप्शन कार्ड -->
+<div class="ritual-card" onclick="openReception()">
+    🎉 Reception
+    <span class="click-hint" style="color: #ff758c;">
+        <i class="fa-solid fa-hand-pointer"></i> Tap to View
+    </span>
+</div>
+
+
+</div>
+
+</section>
+
+</main>
+
+<!--haldi-->
+
+<section id="haldiPage" class="haldi-container" style="display: none;">
+   
+   <!-- बैक बटन -->
+   <button class="back-btn" onclick="closeHaldi()">
+      <i class="fa-solid fa-arrow-left"></i> Back
+   </button>
+   
+<!-- [UPDATED] सबसे ऊपर Cute दूल्हा-दुल्हन इमोजी बॉक्स -->
+<!-- सबसे ऊपर Cute दूल्हा-दुल्हन एनिमेशन वाला बॉक्स -->
+<div class="top-couple-box" style="display: flex; justify-content: center; align-items: center; gap: 18px; margin-top: 25px; margin-bottom: 15px;">
+   
+   <!-- क्यूट दूल्हा (Boy) -->
+   <div class="avatar-emoji-circle cute-groom" style="background: white; border: 2px dashed #f1c40f; width: 55px; height: 55px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 32px; box-shadow: 0 8px 20px rgba(0,0,0,0.06); transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);">
+      👦🏻
+   </div>
+   
+   <!-- हल्दी वाली धड़कन (Yellow Heart) -->
+   <span style="font-size: 28px; display: inline-block; animation: cuteHeartBeat 1.4s infinite; filter: drop-shadow(0 2px 4px rgba(0,0,0,0.1));">
+      💛
+   </span>
+   
+   <!-- क्यूट दुल्हन (Girl) -->
+   <div class="avatar-emoji-circle cute-bride" style="background: white; border: 2px dashed #f1c40f; width: 55px; height: 55px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 32px; box-shadow: 0 8px 20px rgba(0,0,0,0.06); transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);">
+      👧🏻
+   </div>
+   
+</div>
+   <!-- गेंदे की लड़ी -->
+   <div class="marigold-garland">
+      <span class="flower"><i class="fa-solid fa-circle"></i></span>
+      <span class="flower"><i class="fa-solid fa-circle"></i></span>
+      <span class="flower"><i class="fa-solid fa-circle"></i></span>
+      <span class="flower"><i class="fa-solid fa-circle"></i></span>
+      <span class="flower"><i class="fa-solid fa-circle"></i></span>
+   </div>
+   
+   <!-- रॉयल हेडिंग -->
+   <h1 class="haldi-title">Haldi Ceremony</h1>
+   <div class="haldi-subtitle"></div>
+   
+   <!-- प्रीमियम इनफार्मेशन कार्ड -->
+   <div class="content-card">
+      
+      <!-- समय (Time) -->
+      <div class="info-row">
+         <div class="info-icon"><i class="fa-solid fa-clock"></i></div>
+         <div class="info-text">
+            <span>समय / Time</span>
+            <p><b>सुबह 10:00 बजे onwards</b></p>
+         </div>
+      </div>
+      
+      <!-- तारीख (Date) -->
+      <div class="info-row">
+         <div class="info-icon"><i class="fa-solid fa-calendar-days"></i></div>
+         <div class="info-text">
+            <span>दिनांक / Date</span>
+            <p><b>शुक्रवार, 8 मई 2027</b></p>
+         </div>
+      </div>
+      
+      <!-- स्थान (Venue) -->
+      <div class="info-row">
+         <div class="info-icon"><i class="fa-solid fa-map-location-dot"></i></div>
+         <div class="info-text">
+            <span>स्थान / Venue</span>
+            <p><b>बरखेड़ी हज्जाम </b></p>
+         </div>
+      </div>
+      
+<!-- हल्दी स्पेशल पवित्र वचन संदेश (दूसरा विकल्प) -->
+<div class="haldi-vachan-wrapper">
+    <div class="haldi-accent-line"></div>
+    <div class="haldi-card-premium">
+        <div class="haldi-header">
+            <span>✨ हल्दी का पवित्र वचन ✨</span>
+        </div>
+<p class="haldi-text-hindi">
+"मेरा बटुआ तुम्हारा है, और तुम्हारी शॉपिंग लिस्ट मेरी! 'तुम्हारी सैलरी तुम्हारी, और मेरी सैलरी हमारी' वाले नियम को मैं दिलू से निभाऊंगा बस महीने के आखिर में मुझे थोड़ा पॉकेट मनी दे देना।" 🥰
+        </p>
+    </div>
+</div>
+
+      
+   </div>
+   
+</section>
+
+<!--Mehandi -->
+
+<!-- मेहंदी सेरेमनी सेक्शन -->
+<section id="mehandiPage" class="mehandi-container" style="display: none;">
+   
+   <!-- बैक बटन -->
+   <button class="mehandi-back-btn" onclick="closeMehandi()">
+      <i class="fa-solid fa-arrow-left"></i> Back
+   </button>
+   
+   <!-- क्यूट दूल्हा-दुल्हन फ्लोटिंग इमोजी बॉक्स -->
+   <div class="mehandi-couple-box">
+      <div class="mehandi-avatar-circle float-groom">
+         👦🏻
+      </div>
+      <!-- मेहंदी थीम ग्रीन हार्ट धड़कन -->
+      <span style="font-size: 28px; display: inline-block; animation: mehandiHeartBeat 1.4s infinite; filter: drop-shadow(0 2px 4px rgba(0,0,0,0.1));">
+         💚
+      </span>
+      <div class="mehandi-avatar-circle float-bride">
+         👧🏻
+      </div>
+   </div>
+   
+   <!-- डायनामिक ग्रेडिएंट हेडिंग -->
+   <h1 class="mehandi-title">Mehendi Ceremony</h1>
+   <div class="mehandi-subtitle">🌿 शगुन की मेहंदी 🌿</div>
+   
+   <!-- इनफार्मेशन कार्ड -->
+   <div class="mehandi-card">
+      
+      <!-- समय (Time) -->
+      <div class="mehandi-info-row">
+         <div class="mehandi-info-icon"><i class="fa-solid fa-clock"></i></div>
+         <div class="mehandi-info-text">
+            <span>समय / Time</span>
+            <p><b>शाम 04:00 बजे से</b></p>
+         </div>
+      </div>
+      
+      <!-- तारीख (Date) -->
+      <div class="mehandi-info-row">
+         <div class="mehandi-info-icon"><i class="fa-solid fa-calendar-days"></i></div>
+         <div class="mehandi-info-text">
+            <span>दिनांक / Date</span>
+            <p><b>शनिवार,9 मई 2027</b></p>
+         </div>
+      </div>
+      
+      <!-- स्थान (Venue) -->
+      <div class="mehandi-info-row">
+         <div class="mehandi-info-icon"><i class="fa-solid fa-map-location-dot"></i></div>
+         <div class="mehandi-info-text">
+            <span>स्थान / Venue</span>
+            <p><b>ग्रीन लॉन्स, उत्सव रिसॉर्ट</b></p>
+         </div>
+      </div>
+      
+
+      
+   </div>
+   
+<!-- रोमांटिक कपल संदेश बॉक्स -->
+<div class="romantic-vachan-wrapper">
+    <div class="romantic-accent-line"></div>
+    <div class="romantic-card-premium">
+        <div class="romantic-header">
+  <span>❤️ मेहंदी वचन ❤️</span>
+        </div>
+  <p class="romantic-text-hindi">
+  "जब कभी तुम्हें बिना बात के रोना या गुस्सा आएगा, तो मैं चुपचाप बिना किसी बहस के तुम्हारा पंचिंग बैग बन जाऊंगा। ❤"
+        </p>
+    </div>
+</div>
+
+   
+</section>
+
+<!--Sangeet-->
+
+<!-- संगीत नाइट सेरेमनी सेक्शन -->
+<section id="sangeetPage" class="sangeet-container" style="display: none;">
+   
+   <!-- बैक बटन -->
+   <button class="sangeet-back-btn" onclick="closeSangeet()">
+      <i class="fa-solid fa-arrow-left"></i> Back
+   </button>
+   
+   <!-- क्यूट दूल्हा-दुल्हन डांसिंग इमोजी बॉक्स -->
+   <div class="sangeet-couple-box">
+      <div class="sangeet-avatar-circle dance-groom">
+         👦🏻
+      </div>
+      <!-- संगीत थीम पिंक हार्ट धड़कन -->
+      <span style="font-size: 28px; display: inline-block; animation: sangeetHeartBeat 1.4s infinite; filter: drop-shadow(0 2px 4px rgba(0,0,0,0.1));">
+         🎈💗🎈
+      </span>
+      <div class="sangeet-avatar-circle dance-bride">
+         👧🏻
+      </div>
+   </div>
+   
+   <!-- डायनामिक नाइट-वाइब ग्रेडिएंट हेडिंग -->
+   <h1 class="sangeet-title">Sangeet Night</h1>
+   <div class="sangeet-subtitle">🎶 सुरों और ताल की शाम 🎶</div>
+   
+   <!-- इनफार्मेशन कार्ड -->
+   <div class="sangeet-card">
+      
+      <!-- समय (Time) -->
+      <div class="sangeet-info-row">
+         <div class="sangeet-info-icon"><i class="fa-solid fa-music"></i></div>
+         <div class="sangeet-info-text">
+            <span>समय / Time</span>
+            <p><b>शाम 07:00 बजे से देर रात तक</b></p>
+         </div>
+      </div>
+      
+      <!-- तारीख (Date) -->
+      <div class="sangeet-info-row">
+         <div class="sangeet-info-icon"><i class="fa-solid fa-calendar-days"></i></div>
+         <div class="sangeet-info-text">
+            <span>दिनांक / Date</span>
+<p><b>रविवार, 10 मई 2027</b></p>
+         </div>
+      </div>
+      
+      <!-- स्थान (Venue) -->
+      <div class="sangeet-info-row">
+         <div class="sangeet-info-icon"><i class="fa-solid fa-microphone-lines"></i></div>
+         <div class="sangeet-info-text">
+            <span>स्थान / Venue</span>
+            <p><b>बरखेड़ी हज्जाम</b></p>
+         </div>
+      </div>
+      
+   </div>
+   
+<!-- कुछ अलग और मॉडर्न फील वाला वचन -->
+<div class="unique-vachan-wrapper">
+    <div class="unique-accent-line"></div>
+    <div class="unique-card-premium">
+        <div class="unique-header">
+            <span>✨ एक सच्चा और प्यारा वादा ✨</span>
+        </div>
+  <p class="unique-text-hindi">
+
+
+जीवन के हर सुख-दुख में तुम्हारा हाथ थामकर रखूँगा और तुम्हारे आत्मसम्मान व खुशियों की रक्षा हमेशा अपने जान से बढ़कर करूँगा। 😊
+
+        </p>
+    </div>
+</div>
+
+   
+</section>
+
+<!-- माता पूजन सेरेमनी सेक्शन -->
+<section id="mataPujanPage" class="pujan-container" style="display: none;">
+   
+   <!-- बाएं किनारे पर दीयों की पूरी लड़ी (Left Border Diyas) -->
+   <div class="diya-border-left">
+      <span class="border-diya">🪔</span>
+      <span class="border-diya">🪔</span>
+      <span class="border-diya">🪔</span>
+      <span class="border-diya">🪔</span>
+      <span class="border-diya">🪔</span>
+      <span class="border-diya">🪔</span>
+      <span class="border-diya">🪔</span>
+   </div>
+   
+   <!-- दाएं किनारे पर दीयों की पूरी लड़ी (Right Border Diyas) -->
+   <div class="diya-border-right">
+      <span class="border-diya">🪔</span>
+      <span class="border-diya">🪔</span>
+      <span class="border-diya">🪔</span>
+      <span class="border-diya">🪔</span>
+      <span class="border-diya">🪔</span>
+      <span class="border-diya">🪔</span>
+      <span class="border-diya">🪔</span>
+   </div>
+   
+   <!-- बैकग्राउंड माँ दुर्गा छवि -->
+   <svg class="durga-bg-vector" viewBox="0 0 64 64">
+      <path d="M12,28 Q22,20 30,28" stroke="#000" stroke-width="2" fill="none" />
+      <path d="M52,28 Q42,20 34,28" stroke="#000" stroke-width="2" fill="none" />
+      <circle cx="32" cy="20" r="3" fill="#b71c1c" />
+      <path d="M32,10 L32,58 M24,18 Q32,26 40,18 M20,14 L24,18 M44,14 L40,18" stroke="#b71c1c" stroke-width="2" fill="none" />
+   </svg>
+   
+   <!-- बैक बटन -->
+   <button class="pujan-back-btn" onclick="closePujan()">
+      <i class="fa-solid fa-arrow-left"></i> Back
+   </button>
+   
+   <!-- दूल्हा-दुल्हन बॉक्स -->
+   <div class="pujan-couple-box">
+      <div class="pujan-avatar-circle float-pujan-groom">👦🏻</div>
+      <span style="font-size: 26px; display: inline-block; animation: pujanHeartBeat 1.5s infinite;">❤️</span>
+      <div class="pujan-avatar-circle float-pujan-bride">👧🏻</div>
+   </div>
+   
+   <h1 class="pujan-title">Mata Pujan</h1>
+   <div class="pujan-subtitle">🪔 जय माता दी 🪔</div>
+   
+   <!-- इनफार्मेशन कार्ड -->
+   <div class="pujan-card">
+      <div class="pujan-info-row">
+         <div class="pujan-info-icon"><i class="fa-solid fa-bell"></i></div>
+         <div class="pujan-info-text">
+            <span>समय / Time</span>
+            <p><b>सुबह 09:00 बजे से</b></p>
+         </div>
+      </div>
+      
+      <div class="pujan-info-row">
+         <div class="pujan-info-icon"><i class="fa-solid fa-calendar-days"></i></div>
+         <div class="pujan-info-text">
+            <span>दिनांक / Date</span>
+<p><b>सोमवार, 11 मई 2027</b></p>
+         </div>
+      </div>
+      
+      <div class="pujan-info-row">
+         <div class="pujan-info-icon"><i class="fa-solid fa-house-chimney-window"></i></div>
+         <div class="pujan-info-text">
+            <span>स्थान / Venue</span>
+            <p><b>निज निवास, हमारे घर पर</b></p>
+         </div>
+      </div>
+   </div>
+   
+   <!-- कुछ अलग और डीप फील वाला माता पूजन वचन -->
+<div class="mata-vachan-wrapper">
+    <div class="mata-accent-line"></div>
+    <div class="mata-card-premium">
+        <div class="mata-header">
+  <span>✨ सच्चा वादा ✨</span>
+        </div>
+        <p class="mata-text-hindi">
+मैं तुमसे काबी किसी लड़ाई में जितने कि कोशिश नहीं करुंगा हर लड़ाई कि winner 🏆 तुम्ही रहोगी🤭
+
+जब कभी बीमार होगी तो तुम्हारा ध्यान वैसे ही रखूंगा जैसे अभी मम्मी रखती होंगी 
+
+
+
+        </p>
+    </div>
+</div>
+
+   
+</section>
+
+<!-- जयमाला सेरेमनी सेक्शन -->
+<section id="jaymalaPage" class="jaymala-container" style="display: none;">
+   
+   <!-- लाइव स्नो फॉल की बूंदें (Snowfall Effect) -->
+   <div class="snowflake">❄</div>
+   <div class="snowflake">❅</div>
+   <div class="snowflake">❆</div>
+   <div class="snowflake">❄</div>
+   <div class="snowflake">❅</div>
+   <div class="snowflake">❆</div>
+   <div class="snowflake">❄</div>
+   
+   <!-- बैकग्राउंड में वरमाला पहनाते हुए दूल्हा-दुल्हन का वेक्टर आर्ट -->
+   <svg class="varmala-bg-couple" viewBox="0 0 64 64" fill="none" stroke="#88144f" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+      <!-- दूल्हा (Groom) Left Side -->
+      <path d="M18,50 C18,40 24,35 26,30 C24,28 22,24 22,20 C22,14 26,12 28,12 C30,12 31,15 30,18" />
+      <!-- दुल्हन (Bride) Right Side -->
+      <path d="M46,50 C46,40 40,35 38,30 C40,28 42,24 42,20 C42,14 38,12 36,12 C34,12 33,15 34,18" />
+      <!-- दोनों के हाथों में वरमाला (Varmala / Garland Action) -->
+      <path d="M26,32 Q32,38 38,32" stroke-dasharray="2,2" stroke-width="2.5" stroke="#d4af37" />
+      <path d="M25,30 Q32,25 37,30" stroke-dasharray="2,2" stroke-width="2.5" stroke="#d4af37" />
+   </svg>
+   
+   <!-- बैक बटन -->
+   <button class="jaymala-back-btn" onclick="closeJaymala()">
+      <i class="fa-solid fa-arrow-left"></i> Back
+   </button>
+   
+   <!-- क्यूट दूल्हा-दुल्हन अवतार बॉक्स -->
+   <div class="jaymala-couple-box">
+      <div class="jaymala-avatar-circle">👦🏻</div>
+      <span style="font-size: 26px; display: inline-block; animation: jaymalaHeartBeat 1.5s infinite;">👑</span>
+      <div class="jaymala-avatar-circle">👧🏻</div>
+   </div>
+   
+   <h1 class="jaymala-title">Jaymala Ceremony</h1>
+   <div class="jaymala-subtitle">💍 दो दिलों का पवित्र मिलन 💍</div>
+   
+   <!-- इनफार्मेशन कार्ड -->
+   <div class="jaymala-card">
+      
+      <!-- समय (Time) -->
+      <div class="jaymala-info-row">
+         <div class="jaymala-info-icon"><i class="fa-solid fa-clock"></i></div>
+         <div class="jaymala-info-text">
+            <span>समय / Time</span>
+<p><b>रात 12:15 बजे (शुभ मुहूर्त)</b></p>
+         </div>
+      </div>
+      
+      <!-- तारीख (Date) -->
+      <div class="jaymala-info-row">
+         <div class="jaymala-info-icon"><i class="fa-solid fa-calendar-check"></i></div>
+         <div class="jaymala-info-text">
+            <span>दिनांक / Date</span>
+            <p><b>मंगलवार, 12 मई 2027</b></p>
+         </div>
+      </div>
+      
+      <!-- स्थान (Venue) -->
+      <div class="jaymala-info-row">
+         <div class="jaymala-info-icon"><i class="fa-solid fa-gopuram"></i></div>
+         <div class="jaymala-info-text">
+            <span>स्थान / Venue</span>
+            <p><b>मुख्य स्टेज, रॉयल पैलेस रिसॉर्ट</b></p>
+         </div>
+      </div>
+      
+   </div>
+   
+<!-- जयमाला स्पेशल बेस्ट फ्रेंड वचन -->
+<div class="jaymala-vachan-wrapper">
+    <div class="jaymala-accent-line"></div>
+    <div class="jaymala-card-premium">
+        <div class="jaymala-header">
+            <span>✨ दिल से दिया गया एक वादा ✨</span>
+        </div>
+        <p class="jaymala-text-hindi">
+"मैं वादा करता हूँ कि तुम सिर्फ मेरी जीवनसाथी ही नहीं, बल्कि मेरी सबसे अच्छी दोस्त भी रहोगी।"
+        </p>
+    </div>
+</div>
+
+   
+</section>
+
+<!-- सात फेरे सेरेमनी सेक्शन -->
+<section id="saatPherePage" class="phere-container" style="display: none;">
+   
+   <!-- हाई-डेंसिटी फूलों की बारिश (गुलाब और गेंदे की पंखुड़ियाँ) -->
+   <div class="flower-petal petal1">🌸</div>
+   <div class="flower-petal petal2">🌹</div>
+   <div class="flower-petal petal3">🌼</div>
+   <div class="flower-petal petal4">🌸</div>
+   <div class="flower-petal petal5">🌹</div>
+   <div class="flower-petal petal6">🌼</div>
+   <div class="flower-petal petal7">🌸</div>
+   <div class="flower-petal petal8">🌹</div>
+   
+   <!-- बैकग्राउंड में सात फेरे (अग्नि कुंड के चारों ओर घूमते) कपल का SVG आर्ट -->
+   <svg class="phere-bg-couple" viewBox="0 0 64 64" fill="none" stroke="#d4af37" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+      <!-- पवित्र अग्नि कुंड (Havan Kund) -->
+      <path d="M24,48 L40,48 L44,54 L20,54 Z" fill="rgba(230, 126, 34, 0.2)" />
+      <path d="M28,48 Q32,38 36,48 M30,48 Q32,42 34,48" stroke="#e67e22" stroke-width="2" />
+      
+      <!-- दूल्हा (Groom) आगे चलता हुआ -->
+      <path d="M36,38 C38,34 37,30 35,26 C37,24 37,20 35,18 C33,16 31,18 31,21" />
+      <path d="M36,38 L38,46 L42,46" />
+      
+      <!-- दुल्हन (Bride) पीछे गठबंधन का पल्लू पकड़े हुए -->
+      <path d="M18,42 C20,38 21,34 19,30 C21,28 21,24 19,22 C17,20 15,22 15,25" />
+      <path d="M18,42 L16,48 L12,48" />
+      
+      <!-- गठबंधन का पवित्र धागा (Gathbandhan Knot) -->
+      <path d="M19,34 Q27,36 34,32" stroke-width="1.5" stroke="#fff" stroke-dasharray="1,1" />
+   </svg>
+   
+   <!-- बैक बटन -->
+   <button class="phere-back-btn" onclick="closePhere()">
+      <i class="fa-solid fa-arrow-left"></i> Back
+   </button>
+   
+   <!-- क्यूट दूल्हा-दुल्हन अवतार बॉक्स -->
+   <div class="phere-couple-box">
+      <div class="phere-avatar-circle">👦🏻</div>
+      <span style="font-size: 26px; display: inline-block; animation: phereFireGlow 1.2s infinite;">🔥</span>
+      <div class="phere-avatar-circle">👧🏻</div>
+   </div>
+   
+   <h1 class="phere-title">Saat Phere</h1>
+   <div class="phere-subtitle">🔥 सात फेरे • सात वचन 🔥</div>
+   
+   <!-- इनफार्मेशन कार्ड -->
+   <div class="phere-card">
+      
+      <!-- समय (Time) -->
+      <div class="phere-info-row">
+         <div class="phere-info-icon"><i class="fa-solid fa-hourglass-half"></i></div>
+         <div class="phere-info-text">
+            <span>समय / Time</span>
+            <p><b>रात 11:45 बजे (हस्तमिलाप एवं फेरे)</b></p>
+         </div>
+      </div>
+      
+      <!-- तारीख (Date) -->
+      <div class="phere-info-row">
+         <div class="phere-info-icon"><i class="fa-solid fa-calendar-days"></i></div>
+         <div class="phere-info-text">
+            <span>दिनांक / Date</span>
+            <p><b>बुधवार, 13 मई 2027</b></p>
+         </div>
+      </div>
+      
+      <!-- स्थान (Venue) -->
+      <div class="phere-info-row">
+         <div class="phere-info-icon"><i class="fa-solid fa-gopuram"></i></div>
+         <div class="phere-info-text">
+            <span>स्थान / Venue</span>
+            <p><b>विवाह मंडप</b></p>
+         </div>
+      </div>
+      
+<!-- सात वचन सेक्शन (कार्ड के नीचे जगह के लिए) -->
+<div class="vachan-box-wrapper">
+    <div class="vachan-accent-line"></div>
+    <div class="vachan-card-premium">
+        <div class="vachan-header">
+            <i class="fa-solid fa-heart-shining vachan-heart-icon"></i>
+            <span>पवित्र सात वचन</span>
+            <i class="fa-solid fa-heart-shining vachan-heart-icon"></i>
+        </div>
+        <p class="vachan-text-hindi">
+  "मैं जीवन के हर मोड़ पर तुम्हारा साथ निभाऊंगा, और तुम्हें जिंदगी भर खुश रखूंगा और तुम्हारे खाने की बुराई कभी नहीं करूंगा 🥺।"
+        </p>
+        <div class="vachan-footer-dots">
+            <span>♦</span><span>♦</span><span>♦</span>
+        </div>
+    </div>
+</div>
+
+      
+   </div>
+
+<!-- सात फेरे - स्पेशल सलाह और विश्वास वचन -->
+<div class="phere-modern-wrapper">
+    <div class="phere-modern-line"></div>
+    <div class="phere-modern-card">
+        <div class="phere-modern-header">
+            <span>✨ सात फेरों का पवित्र वादा ✨</span>
+        </div>
+
+    </div>
+</div>
+
+   
+</section>
+
+<!-- आशीर्वाद सेरेमनी सेक्शन (पूरा नया पेज) -->
+<section id="ashirwadPage" class="ashirwad-container" style="display: none;">
+   
+   <!-- सोने की चमकती हुई बारिश (Gold Falling Sparkles) -->
+   <div class="gold-sparkle sparkle1">✨</div>
+   <div class="gold-sparkle sparkle2">🔸</div>
+   <div class="gold-sparkle sparkle3">✨</div>
+   <div class="gold-sparkle sparkle4">🔸</div>
+   <div class="gold-sparkle sparkle5">✨</div>
+   <div class="gold-sparkle sparkle6">🔸</div>
+   <div class="gold-sparkle sparkle7">✨</div>
+   
+   <!-- बैक बटन -->
+   <button class="ashirwad-back-btn" onclick="closeAshirwad()">
+      <i class="fa-solid fa-arrow-left"></i> Back
+   </button>
+   
+   <!-- क्यूट दूल्हा-दुल्हन (हाथ जोड़े हुए) बॉक्स -->
+   <div class="ashirwad-couple-box">
+      <div class="ashirwad-avatar-circle float-ashirwad-groom">👦🏻</div>
+      <span style="font-size: 26px; display: inline-block; animation: ashirwadHeartBeat 1.5s infinite;">🙏</span>
+      <div class="ashirwad-avatar-circle float-ashirwad-bride">👧🏻</div>
+   </div>
+   
+   <!-- भव्य हेडिंग -->
+   <h1 class="ashirwad-title">Ashirwad</h1>
+   <div class="ashirwad-subtitle">🙏 स्नेह और आशीर्वाद 🙏</div>
+   
+   <!-- इनफार्मेशन कार्ड -->
+   <div class="ashirwad-card">
+      
+      <!-- समय (Time) -->
+      <div class="ashirwad-info-row">
+         <div class="ashirwad-info-icon"><i class="fa-solid fa-utensils"></i></div>
+         <div class="ashirwad-info-text">
+            <span>समय / Time</span>
+            <p><b>शाम 07:00 बजे (प्रतिभोज एवं स्नेह मिलन)</b></p>
+         </div>
+      </div>
+      
+      <!-- तारीख (Date) -->
+      <div class="ashirwad-info-row">
+         <div class="ashirwad-info-icon"><i class="fa-solid fa-calendar-check"></i></div>
+         <div class="ashirwad-info-text">
+            <span>दिनांक / Date</span>
+            <p><b>बुधवार, 13 मई 2027</b></p>
+         </div>
+      </div>
+      
+      <!-- स्थान (Venue) -->
+      <div class="ashirwad-info-row">
+         <div class="ashirwad-info-icon"><i class="fa-solid fa-hotel"></i></div>
+         <div class="ashirwad-info-text">
+            <span>स्थान / Venue</span>
+            <p><b>निज निवास</b></p>
+         </div>
+      </div>
+      
+   </div>
+   
+   <!-- बॉटम दिव्य आशीर्वाद वचन पत्र -->
+   <div class="ashirwad-vachan-box">
+        <p class="phere-modern-text">
+  "मैं वादा करता हूँ कि ज़िंदगी का कोई भी फ़ैसला, तुम्हारी सलाह के बिना कभी नहीं लूँगा।"
+        </p>
+<div class="ashirwad-vachan-footer">
+✨ आपके आगमन और मंगलकामनाओं के आकांक्षी... ✨
+      </div>
+   </div>
+   
+</section>
+
+<!-- रिसेप्शन सेरेमनी सेक्शन (पूरा नया पेज) -->
+<section id="receptionPage" class="reception-container" style="display: none;">
+   
+   <!-- हवा में उड़ते हुए गुलाब के फूल (Rose Petals Animation) -->
+   <div class="reception-petal rc-petal1">🌸</div>
+   <div class="reception-petal rc-petal2">🌹</div>
+   <div class="reception-petal rc-petal3">🌸</div>
+   <div class="reception-petal rc-petal4">🌹</div>
+   <div class="reception-petal rc-petal5">🌸</div>
+   <div class="reception-petal rc-petal6">🌹</div>
+   
+   <!-- बैक बटन -->
+   <button class="reception-back-btn" onclick="closeReception()">
+      <i class="fa-solid fa-arrow-left"></i> Back
+   </button>
+   
+   <!-- स्पेशल रोमांटिक हगिंग कपल (Couple Hugging Box) -->
+   <div class="reception-hug-box">
+      <div class="reception-avatar-hug">👩‍❤️‍👨</div>
+      <div class="reception-hug-heart">❤️</div>
+   </div>
+   
+   <!-- भव्य हेडिंग -->
+   <h1 class="reception-title">Reception</h1>
+   <div class="reception-subtitle">✨ आशीर्वाद एवं स्वरूचि-भोज ✨</div>
+   
+   <!-- इनफार्मेशन कार्ड -->
+   <div class="reception-card">
+      
+      <!-- समय (Time) -->
+      <div class="reception-info-row">
+         <div class="reception-info-icon"><i class="fa-solid fa-clock"></i></div>
+         <div class="reception-info-text">
+            <span>समय / Time</span>
+            <p><b>शाम 08:00 बजे से (प्रभुभोज एवं डीजे नाइट)</b></p>
+         </div>
+      </div>
+      
+      <!-- तारीख (Date) -->
+      <div class="reception-info-row">
+         <div class="reception-info-icon"><i class="fa-solid fa-calendar-days"></i></div>
+         <div class="reception-info-text">
+            <span>दिनांक / Date</span>
+            <p><b>गुरुवार, 15 मई 2027</b></p>
+         </div>
+      </div>
+      
+      <!-- स्थान (Venue) -->
+      <div class="reception-info-row">
+         <div class="reception-info-icon"><i class="fa-solid fa-location-dot"></i></div>
+         <div class="reception-info-text">
+            <span>स्थान / Venue</span>
+            <p><b>निज निवास</b></p>
+         </div>
+      </div>
+      
+   </div>
+   
+   <!-- बॉटम रोमांटिक वचन पत्र -->
+   <div class="reception-vachan-box">
+      <p class="reception-vachan-text">
+आज से मेरी हर खुशी सिर्फ तुम्हारी खुशी से है।
+      </p>
+   </div>
+   
+</section>
+
+<audio id="weddingMusic"></audio>
+
+<script>
+/* ====================================
+OPEN INVITATION
+==================================== */
+
+/* ====================================
+1. GLOBAL VARIABLES & INITIAL SETUP
+==================================== */
+let currentPage = "main";
+
+
+const openBtn = document.getElementById("openInvitation");
+const openingScreen = document.querySelector(".opening-screen");
+const mainContent = document.querySelector(".main-content");
+
+
+/* =========================
+   INIT
+========================= */
+if (mainContent) {
+  mainContent.style.display = "none";
+}
+
+/* =========================
+   OPEN INVITATION
+========================= */
+if (openBtn) {
+  openBtn.addEventListener("click", () => {
+    
+    // MAIN SONG
+    music.src = "tare hai barati.mp3";
+    music.play().catch(() => {});
+    
+    // OPEN SCREEN HIDE
+    openingScreen.style.transition = "1.2s";
+    openingScreen.style.opacity = "0";
+    openingScreen.style.visibility = "hidden";
+    
+    // SHOW MAIN
+    mainContent.style.display = "block";
+    
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+}
+
+/* =========================
+   🌼 HALDI PAGE
+========================= */
+
+/* BACK FROM HALDI */
+function closeHaldi() {
+  
+  document.getElementById("haldiPage").style.display = "none";
+  mainContent.style.display = "block";
+  
+  music.pause();
+  music.currentTime = 0;
+}
+
+/* =========================
+   💐 MEHENDI PAGE (OPTIONAL)
+========================= */
+function openMehendi() {
+  
+  mainContent.style.display = "none";
+  document.getElementById("mehendiPage").style.display = "block";
+  
+  music.src = "mehendi.mp3";
+  music.play().catch(() => {});
+}
+
+function closeMehendi() {
+  
+  document.getElementById("mehendiPage").style.display = "none";
+  mainContent.style.display = "block";
+  
+  music.pause();
+  music.currentTime = 0;
+}
+/* ====================================
+4. COUNTDOWN TIMER
+==================================== */
+const weddingDate = new Date("November 10, 2026 16:00:00").getTime();
+
+function updateCountdown() {
+    const now = new Date().getTime();
+    const distance = weddingDate - now;
+
+    // अगर शादी की तारीख आ चुकी या निकल चुकी है
+    if (distance < 0) {
+        clearInterval(countdownInterval);
+        return;
+    }
+
+    const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    // HTML में डेटा रेंडर करना (सुरक्षित तरीके से)
+    const dEl = document.getElementById("days");
+    const hEl = document.getElementById("hours");
+    const mEl = document.getElementById("minutes");
+    const sEl = document.getElementById("seconds");
+
+    if (dEl) dEl.innerText = days;
+    if (hEl) hEl.innerText = hours;
+    if (mEl) mEl.innerText = minutes;
+    if (sEl) sEl.innerText = seconds;
+}
+
+// हर सेकंड टाइम अपडेट करें
+const countdownInterval = setInterval(updateCountdown, 1000);
+updateCountdown(); // तुरंत रन करने के लिए
+
+/* ====================================
+5. RITUAL CARD CLICK EFFECTS (Bounce)
+==================================== */
+const ritualCards = document.querySelectorAll(".ritual-card");
+
+ritualCards.forEach(card => {
+    card.addEventListener("click", () => {
+        card.style.transform = "scale(0.96)";
+        setTimeout(() => {
+            card.style.transform = "scale(1)";
+        }, 150);
+    });
+});
+
+/* ====================================
+6. SCROLL REVEAL (Intersection Observer)
+==================================== */
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+            entry.target.style.opacity = "1";
+            entry.target.style.transform = "translateY(0px)";
+        }
+    });
+}, { threshold: 0.15 });
+
+const revealElements = document.querySelectorAll(".couple-card, .story-card, .ritual-card, .countdown-grid div");
+
+revealElements.forEach(el => {
+    el.style.opacity = "0";
+    el.style.transform = "translateY(40px)";
+    el.style.transition = "1s ease-out";
+    observer.observe(el);
+});
+
+/* ====================================
+7. PAGES NAVIGATION (HALDI & MEHANDI)
+==================================== */
+
+// --- हल्दी पेज फंक्शंस ---
+function openHaldi() {
+  currentPage = "haldi";
+  
+  music.pause();
+  music.currentTime = 0;
+  
+  mainContent.style.display = "none";
+  document.getElementById("haldiPage").style.display = "block";
+  
+  music.src = "haldi.mp3";
+  music.play().catch(() => {});
+}
+// --- मेहंदी पेज फंक्शंस ---
+function openMehandi() {
+  currentPage = "mehendi";
+  
+  music.pause();
+  music.currentTime = 0;
+  
+  mainContent.style.display = "none";
+  
+  const mehandiPage = document.getElementById("mehandiPage");
+  if (mehandiPage) mehandiPage.style.display = "block";
+  
+  const haldiPage = document.getElementById("haldiPage");
+  if (haldiPage) haldiPage.style.display = "none";
+  
+  music.src = "mehendi.mp3";
+  music.play().catch(() => {});
+  
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
+function closeMehandi() {
+    const mehandiPage = document.getElementById("mehandiPage");
+    if (mehandiPage) mehandiPage.style.display = "none";
+    
+    if (mainContent) mainContent.style.display = "block";
+}
+
+// --- संगीत पेज फंक्शंस ---
+function openSangeet() {
+  currentPage = "sangeet";
+  
+  music.pause();
+  music.currentTime = 0;
+  
+  mainContent.style.display = "none";
+  
+  const sangeetPage = document.getElementById("sangeetPage");
+  if (sangeetPage) sangeetPage.style.display = "block";
+  
+  const haldiPage = document.getElementById("haldiPage");
+  if (haldiPage) haldiPage.style.display = "none";
+  
+  const mehandiPage = document.getElementById("mehandiPage");
+  if (mehandiPage) mehandiPage.style.display = "none";
+  
+  music.src = "sangeet.mp3";
+  music.play().catch(() => {});
+  
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+function closeSangeet() {
+    // संगीत पेज छुपाएं
+    const sangeetPage = document.getElementById("sangeetPage");
+    if (sangeetPage) sangeetPage.style.display = "none";
+    
+    // मेन कंटेंट वापस दिखाएं
+    if (mainContent) mainContent.style.display = "block";
+}
+
+
+// --- माता पूजन पेज फंक्शंस ---
+
+
+function openPujan() {
+  currentPage = "pujan";
+  
+  music.pause();
+  music.currentTime = 0;
+  
+  mainContent.style.display = "none";
+  
+  const mataPujanPage = document.getElementById("mataPujanPage");
+  if (mataPujanPage) mataPujanPage.style.display = "block";
+  
+  const haldiPage = document.getElementById("haldiPage");
+  if (haldiPage) haldiPage.style.display = "none";
+  
+  const mehandiPage = document.getElementById("mehandiPage");
+  if (mehandiPage) mehandiPage.style.display = "none";
+  
+  const sangeetPage = document.getElementById("sangeetPage");
+  if (sangeetPage) sangeetPage.style.display = "none";
+  
+  // optional: agar pujan music hai to yaha set karo
+  music.src = "pujan.mp3";
+  music.play().catch(() => {});
+  
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
+function closePujan() {
+    // माता पूजन पेज छुपाएं
+    const mataPujanPage = document.getElementById("mataPujanPage");
+    if (mataPujanPage) mataPujanPage.style.display = "none";
+    
+    // मेन कंटेंट वापस दिखाएं
+    if (mainContent) mainContent.style.display = "block";
+}
+
+// --- जयमाला पेज फंक्शंस ---
+function openJaymala() {
+  currentPage = "jaymala";
+  
+  music.pause();
+  music.currentTime = 0;
+  
+  mainContent.style.display = "none";
+  document.getElementById("jaymalaPage").style.display = "block";
+  
+  music.src = "jaymala.mp3";
+  music.play().catch(() => {});
+}
+function closeJaymala() {
+    // जयमाला पेज छुपाएं
+    const jaymalaPage = document.getElementById("jaymalaPage");
+    if (jaymalaPage) jaymalaPage.style.display = "none";
+    
+    // मेन कंटेंट वापस दिखाएं
+    if (mainContent) mainContent.style.display = "block";
+}
+
+
+// --- सात फेरे पेज फंक्शंस ---
+function openPhere() {
+  currentPage = "phere";
+  
+  music.pause();
+  music.currentTime = 0;
+  
+  mainContent.style.display = "none";
+  
+  const saatPherePage = document.getElementById("saatPherePage");
+  if (saatPherePage) saatPherePage.style.display = "block";
+  
+  // baaki pages hide
+  const pages = ["haldiPage", "mehandiPage", "sangeetPage", "mataPujanPage", "jaymalaPage"];
+  pages.forEach(id => {
+    const page = document.getElementById(id);
+    if (page) page.style.display = "none";
+  });
+  
+  // music (agar chaho to add kar sakte ho)
+  music.src = "phere.mp3";
+  music.play().catch(() => {});
+  
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+function closePhere() {
+    // सात फेरे पेज छुपाएं
+    const saatPherePage = document.getElementById("saatPherePage");
+    if (saatPherePage) saatPherePage.style.display = "none";
+    
+    // मेन कंटेंट वापस दिखाएं
+    if (mainContent) mainContent.style.display = "block";
+}
+
+
+// --- आशीर्वाद पेज फंक्शंस (Grand Ashirwad Navigation) ---
+function openAshirwad() {
+  currentPage = "ashirwad";
+  
+  music.pause();
+  music.currentTime = 0;
+  
+  mainContent.style.display = "none";
+  
+  const ashirwadPage = document.getElementById("ashirwadPage");
+  if (ashirwadPage) ashirwadPage.style.display = "block";
+  
+  // baaki saare pages hide
+  const pages = [
+    "haldiPage",
+    "mehandiPage",
+    "sangeetPage",
+    "mataPujanPage",
+    "jaymalaPage",
+    "saatPherePage"
+  ];
+  
+  pages.forEach(id => {
+    const page = document.getElementById(id);
+    if (page) page.style.display = "none";
+  });
+  
+  // optional music (agar file hai to)
+  music.src = "ashirwad.mp3";
+  music.play().catch(() => {});
+  
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
+
+function closeAshirwad() {
+    // आशीर्वाद पेज छुपाएं
+    const ashirwadPage = document.getElementById("ashirwadPage");
+    if (ashirwadPage) ashirwadPage.style.display = "none";
+    
+    // मेन कंटेंट वापस दिखाएं
+    if (mainContent) mainContent.style.display = "block";
+}
+
+
+// --- रिसेप्शन पेज फंक्शंस (Grand Reception Navigation) ---
+function openReception() {
+  currentPage = "reception";
+  
+  music.pause();
+  music.currentTime = 0;
+  
+  mainContent.style.display = "none";
+  
+  const receptionPage = document.getElementById("receptionPage");
+  if (receptionPage) receptionPage.style.display = "block";
+  
+  // baaki saare pages hide
+  const pages = [
+    "haldiPage",
+    "mehandiPage",
+    "sangeetPage",
+    "mataPujanPage",
+    "jaymalaPage",
+    "saatPherePage",
+    "ashirwadPage"
+  ];
+  
+  pages.forEach(id => {
+    const page = document.getElementById(id);
+    if (page) page.style.display = "none";
+  });
+  
+  // optional music (agar chaho)
+  music.src = "reception.mp3";
+  music.play().catch(() => {});
+  
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
+function closeReception() {
+    // रिसेप्शन पेज छुपाएं
+    const receptionPage = document.getElementById("receptionPage");
+    if (receptionPage) receptionPage.style.display = "none";
+    
+    // मेन कंटेंट वापस दिखाएं
+    if (mainContent) mainContent.style.display = "block";
+}
+
+
+const music = document.getElementById("weddingMusic");
+
+/* ⭐ ADD THIS (new block, NOT replacement) */
+music.onended = function() {
+  if (currentPage === "main") return; // home page pe loop nahi hoga
+  
+  music.currentTime = 0;
+  music.play();
+};
+
+window.addEventListener("load", () => {
+  const music = document.getElementById("weddingMusic");
+  
+  if (!music) return;
+  
+  music.src = "tare hai barati.mp3";
+  music.loop = true;
+  
+  music.play().catch(() => {
+    console.log("Autoplay blocked, user interaction needed");
+  });
+});
+
+</script>
+
+</body>
+</html>
